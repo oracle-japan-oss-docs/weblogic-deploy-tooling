@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="ja" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.82.0" />
+    <meta content="" name="description">
+
+
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+
+    <title> :: WebLogic Deploy Tooling</title>
+
+    
+    <link href="../css/nucleus.css?1666898261" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1666898261" rel="stylesheet">
+    <link href="../css/hybrid.css?1666898261" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1666898261" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1666898261" rel="stylesheet">
+    <link href="../css/auto-complete.css?1666898261" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1666898261" rel="stylesheet">
+    <link href="../css/theme.css?1666898261" rel="stylesheet">
+    <link href="../css/tabs.css?1666898261" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1666898261" rel="stylesheet">
+    
+    
+
+    <script src="../js/jquery-3.3.1.min.js?1666898261"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      
+    </style>
+    
+  <meta HTTP-EQUIV="Content-Type" Content="text/html; charset=utf-8"></head>
+  <style type="text/css"> <!-- .merged:hover {text-decoration: underline;} --> </style>
+<body class="" data-url="/weblogic-deploy-tooling/rcuinfo/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <span class="merged" id="index.1TsC2u"  title="原文::  WebLogic Deploy Tooling "><a href="https://oracle.github.io/weblogic-deploy-tooling" id="logo"> <img height="90" src="../images/logo.png"><br /> WebLogic Deploy Tooling </a></span>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="../js/lunr.min.js?1666898261"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1666898261"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/oracle.github.io\/weblogic-deploy-tooling";
+    
+</script>
+<script type="text/javascript" src="../js/search.js?1666898261"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <span class="merged" id="index.1MwL1i"  title="原文::  Home"><a class="padding" href='https://oracle.github.io/weblogic-deploy-tooling'><i class='fas fa-home'></i> ホーム</a></span>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/concepts/" title=" 概念">
+      <span class="merged" id="index.30tFgP" title="原文 :  Concepts "><a href="../concepts/index.html"><b></b>概念 </a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/concepts/model/" title="メタデータ・モデル">
+        <span class="merged" id="index.3FyD2m" title="原文 :  Metadata Model "><a href="../concepts/model/index.html">メタデータ・モデル</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/concepts/archive/" title="アーカイブ・ファイル">
+        <span class="merged" id="index.3EOsql"  title="原文::  Archive File "><a href="../concepts/archive/index.html"> アーカイブ・ファイル </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/" title="ユーザー・ガイド">
+      <span class="merged" id="index.3U774k"  title="原文::  User Guide "><a href="../userguide/index.html"> <b> </b>ユーザー・ガイド </a></span>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/install/" title="WDTのインストール">
+        <span class="merged" id="index.3PJvBX" title="原文 :  Install WDT "><a href="../userguide/install/index.html">WDTのインストール</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/tools/" title="WDTツール">
+      <span class="merged" id="index.4fQtXr" title="原文 :  WDT Tools "><a href="../userguide/tools/index.html"><b></b> WDTツール</a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/create/" title="Create Domain Tool">
+        <span class="merged" id="index.3IGBSw" title="原文 :  Create Domain Tool "><a href="../userguide/tools/create/index.html"> Create Domain Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/update/" title="Update Domain Tool">
+        <span class="merged" id="index.2HeM4t" title="原文 :  Update Domain Tool "><a href="../userguide/tools/update/index.html"> Update Domain Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/deploy/" title="Deploy Applications Tool">
+        <span class="merged" id="index.OoBFU" title="原文 :  Deploy Applications Tool "><a href="../userguide/tools/deploy/index.html"> Deploy Applications Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/discover/" title="Discover Domain Tool">
+        <span class="merged" id="index.1aSuNG" title="原文 :  Discover Domain Tool "><a href="../userguide/tools/discover/index.html"> Discover Domain Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/encrypt/" title="Encrypt Model Tool">
+        <span class="merged" id="index.2RWRpu" title="原文 :  Encrypt Model Tool "><a href="../userguide/tools/encrypt/index.html"> Encrypt Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/validate/" title="Validate Model Tool">
+        <span class="merged" id="index.2V1HuP" title="原文 :  Validate Model Tool "><a href="../userguide/tools/validate/index.html"> Validate Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/compare/" title="Compare Model Tool">
+        <span class="merged" id="index.DKPsx" title="原文 :  Compare Model Tool "><a href="../userguide/tools/compare/index.html"> Compare Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/prepare/" title="Prepare Model Tool">
+        <span class="merged" id="index.3bsfng" title="原文 :  Prepare Model Tool "><a href="../userguide/tools/prepare/index.html"> Prepare Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/kubernetes/" title="Extract Domain Resource Tool">
+        <span class="merged" id="index.xBX2E" title="原文 :  Extract Domain Resource Tool "><a href="../userguide/tools/kubernetes/index.html"> Extract Domain Resource Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/variable_injection/" title="Variable Injector Tool">
+        <span class="merged" id="index.gVqBq" title="原文 :  Variable Injector Tool "><a href="../userguide/tools/variable_injection/index.html"> Variable Injector Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/model_help/" title="Model Help Tool">
+        <span class="merged" id="index.3xxTvf" title="原文 :  Model Help Tool "><a href="../userguide/tools/model_help/index.html"> Model Help Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/target_env/" title="ターゲット環境">
+        <span class="merged" id="index.1kyFNo" title="原文 :  Target environments "><a href="../userguide/target_env/index.html">ターゲット環境</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/" title="ツール構成">
+      <span class="merged" id="index.1sFRGG" title="原文 :  Tools configuration "><a href="../userguide/tools-config/index.html">ツール構成</a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/model_filters/" title="モデル・フィルタ">
+        <span class="merged" id="index.7nHwh" title="原文 :  Model filters "><a href="../userguide/tools-config/model_filters/index.html">モデル・フィルタ</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/domain_def/" title="ドメイン・タイプ定義">
+        <span class="merged" id="index.4VseHU" title="原文 :  Domain type definitions "><a href="../userguide/tools-config/domain_def/index.html">ドメイン・タイプ定義</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/custom_config/" title="カスタム構成">
+        <span class="merged" id="index.1KXZpm"  title="原文::  Custom configuration "><a href="../userguide/tools-config/custom_config/index.html"> カスタム構成 </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/logging/" title="ロギング">
+        <span class="merged" id="index.SDMyh"  title="原文::  Logging "><a href="../userguide/tools-config/logging/index.html"> ロギング </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/tool_prop/" title="ツール・プロパティ・ファイル">
+        <span class="merged" id="index.nOs8M" title="原文 :  Tool property file "><a href="../userguide/tools-config/tool_prop/index.html">ツール・プロパティ・ファイル</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/samples/" title="サンプル">
+      <span class="merged" id="index.16AI5M"  title="原文::  Samples "><a href="../samples/index.html"> <b> </b>サンプル </a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/adminserver-model/" title="管理サーバーのカスタマイズ">
+        <span class="merged" id="index.1xTFW8" title="原文 :  Customizing the Administration Server "><a href="../samples/adminserver-model/index.html">管理サーバーのカスタマイズ</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/cluster-model/" title="構成済クラスタのモデリング">
+        <span class="merged" id="index.1tMFgz" title="原文 :  Modeling a configured cluster "><a href="../samples/cluster-model/index.html">構成済クラスタのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/wtc-model/" title="WTC構成のモデリング">
+        <span class="merged" id="index.4D9UvY" title="原文 :  Modeling a WTC configuration "><a href="../samples/wtc-model/index.html">WTC構成のモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/jdbc-model/" title="JDBCデータ・ソースのモデリング">
+        <span class="merged" id="index.UfbEP" title="原文 :  Modeling a JDBC data source "><a href="../samples/jdbc-model/index.html">JDBCデータ・ソースのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/workmanager-model/" title="ワーク・マネージャのモデリング">
+        <span class="merged" id="index.1n0sec" title="原文 :  Modeling a Work Manager "><a href="../samples/workmanager-model/index.html">ワーク・マネージャのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/securityproviders-model/" title="セキュリティ・プロバイダのモデル化">
+        <span class="merged" id="index.2hmV6O" title="原文 :  Modeling security providers "><a href="../samples/securityproviders-model/index.html">セキュリティ・プロバイダのモデル化</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/usersgroups-model/" title="WebLogicユーザー、グループおよびロールのモデル化">
+        <span class="merged" id="index.1GG04R" title="原文 :  Modeling WebLogic users, groups, and roles "><a href="../samples/usersgroups-model/index.html">WebLogicユーザー、グループおよびロールのモデル化</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/pwcredentialmap-model/" title="WebLogicユーザー・パスワード資格証明マッピングのモデリング">
+        <span class="merged" id="index.2tpt6g" title="原文 :  Modeling WebLogic user password credential mapping "><a href="../samples/pwcredentialmap-model/index.html">WebLogicユーザー・パスワード資格証明マッピングのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/odl-model/" title="Oracle Diagnostic Loggingの構成">
+        <span class="merged" id="index.4gZIAo" title="原文 :  Configuring Oracle Diagnostic Logging "><a href="../samples/odl-model/index.html">Oracle Diagnostic Loggingの構成</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/ohs-model/" title="Oracle HTTP Serverの構成">
+        <span class="merged" id="index.4Tzarl"  title="原文:  Configuring Oracle HTTP Server "><a href="../samples/ohs-model/index.html"> Oracle HTTP Serverの構成 </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/targetservers-model/" title="サーバー・グループのターゲット指定">
+        <span class="merged" id="index.5L8jG" title="原文 :  Targeting server groups "><a href="../samples/targetservers-model/index.html">サーバー・グループのターゲット指定</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/wko-model/" title="WebLogic Kubernetes OperatorでのWDTの使用">
+        <span class="merged" id="index.3TtBJX" title="原文 :  Using WDT with WebLogic Kubernetes Operator "><a href="../samples/wko-model/index.html">WebLogic Kubernetes OperatorでのWDTの使用</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/developer/" title="開発者ガイド">
+      <span class="merged" id="index.4gPpX0"  title="原文::  Developer Guide "><a href="../developer/index.html"> <b> </b>開発者ガイド </a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/project-structure/" title="プロジェクト構造">
+        <span class="merged" id="index.VsRtE" title="原文 :  Project structure "><a href="../developer/project-structure/index.html">プロジェクト構造</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/feature-impl/" title="機能の実装">
+        <span class="merged" id="index.4WuMpP" title="原文 :  Feature implementation "><a href="../developer/feature-impl/index.html">機能の実装</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/alias-definitions/" title="別名定義">
+        <span class="merged" id="index.4N1fwC" title="原文 :  Alias definitions "><a href="../developer/alias-definitions/index.html">別名定義</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/buildwdt/" title="WebLogic Deploy Toolのビルド">
+        <span class="merged" id="index.1ILRYO" title="原文 :  Build WebLogic Deploy Tool "><a href="../developer/buildwdt/index.html">ビルドWebLogic Deploy Tool</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/releaseprocess/" title="WDTプロジェクト・リリース・プロセス">
+        <span class="merged" id="index.3jqDTC" title="原文 :  WDT project release process "><a href="../developer/releaseprocess/index.html">WDTプロジェクト・リリース・プロセス</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/contribute/" title="WDTへの貢献">
+        <span class="merged" id="index.3ecaGg" title="原文 :  Contribute to WDT "><a href="../developer/contribute/index.html">WDTへの貢献</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/release-notes/" title="リリース・ノート">
+      <span class="merged" id="index.3XHFiM"  title="原文::  Release Notes "><a href="../release-notes/index.html"> <b> </b>リリース・ノート </a></span>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p><span class="merged" id="index.4behA5" title="原文 : Created with from Oracle"><a href="https://www.oracle.com">Oracle</a>から<i class="fas fa-heart"></i>で作成</span></p>
+<p><span class="merged" id="index.1OQYZy"  title="原文:: &nbsp">&nbsp</span></p>
+<p><span class="merged" id="index.msaKb" title="原文 :  GitHub repo"><a href="https://github.com/oracle/weblogic-deploy-tooling"><i class="fab fa-github"></i>GitHubリポジトリ</a></span></p>
+<p><span class="merged" id="index.rjNGa" title="原文 :  Public Slack #weblogic"><a href="https://weblogic-slack-inviter.herokuapp.com/"><i class="fab fa-slack"></i>パブリックSlack #weblogic</a></span></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span class="merged" id="index.2JZWQF"  title="原文:  &gt; "><span id="sidebar-toggle-span"> <a data-sidebar-toggle="" href="index.html#" id="sidebar-toggle"> <i class="fas fa-bars"></i> </a> </span> <span id="toc-menu"><i class="fas fa-list-alt"></i></span> <span class="links"> <a href='../index.html'></a> > </span></span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><span class="merged" id="index.1mskMM" title="原文 : Specifying RCU connection information in the model"><a href="index.html#specifying-rcu-connection-information-in-the-model">モデルでのRCU接続情報の指定</a></span></li>
+        <li><span class="merged" id="index.3nK68m" title="原文 : Background on JRF domain RCU tables"><a href="index.html#background-on-jrf-domain-rcu-tables">JRFドメインRCU表のバックグラウンド</a></span></li>
+        <li><span class="merged" id="index.43EpGh" title="原文 : Access a database using a wallet"><a href="index.html#access-a-database-using-a-wallet">ウォレットを使用したデータベースへのアクセス</a></span></li>
+        <li><span class="merged" id="index.1cE8B8" title="原文 : Access a database without using a wallet (non wallet-based access)"><a href="index.html#access-a-database-without-using-a-wallet-non-wallet-based-access">ウォレットを使用せずにデータベースにアクセス(ウォレット・ベースのアクセス以外)</a></span></li>
+        <li><span class="merged" id="index.1zEZv4" title="原文 : Specify variables for RCU"><a href="index.html#specify-variables-for-rcu">RCUの変数の指定</a></span></li>
+        <li><span class="merged" id="index.wxvS2" title="原文 : Specify extended XML files for RCU"><a href="index.html#specify-extended-xml-files-for-rcu">RCUの拡張XMLファイルの指定</a></span></li>
+        <li><span class="merged" id="index.3YDRbb" title="原文 : Advanced JRF database use cases"><a href="index.html#advanced-jrf-database-use-cases">Advanced JRFデータベースのユース・ケース</a></span></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <div style="width:100%"> <div title="免責事項: ここに記載されているドキュメントは、お客様の利便性のために翻訳ソフトウエアにより機械的に翻訳(機械翻訳)したものです。オリジナルの英語版もあわせてご確認ください。" style="width:150px;padding-left:5px;padding-right:5px;border:#ff0000 solid 1px;border-color: gray;font-size: small;color:gray;margin: 0 auto 0 auto;text-align:center"><a href="https://docs.oracle.com/cd/E85181_01/mt_disclaimer.html">機械翻訳について</a></div> </div>
+<h1>
+              
+              
+            </h1>
+          
+
+        
+
+
+<h3 id="specifying-rcu-connection-information-in-the-model"><span class="merged" id="index.4A5EWY" title="原文 : Specifying RCU connection information in the model">モデルでのRCU接続情報の指定</span></h3>
+<p><span class="merged" id="index.3ZP0Av.spl1" title="原文 : When creating a JRF domain, you can provide all the RCU connection information in a section RCUDbInfo under the domainInfo section in the model.">JRFドメインの作成時に、モデル内の<code>domainInfo</code>セクションの下にあるセクション<code>RCUDbInfo</code>に、すべてのRCU接続情報を指定できます。</span> <span class="merged" id="index.3ZP0Av.spl2" title="原文 :  It provides you with more flexibility over the basic command-line arguments of -rcu_db and -rcu_prefix."><br>これにより、<code>-rcu_db</code>および<code>-rcu_prefix</code>の基本的なコマンドライン引数に対する柔軟性が向上します。</span> <span class="merged" id="index.3ZP0Av.spl3" title="原文 : Use this when the connection string is more complex and requires extra options.">接続文字列がより複雑で、追加のオプションが必要な場合に使用します。</span> </p>
+<h3 id="background-on-jrf-domain-rcu-tables"><span class="merged" id="index.2oJvnY" title="原文 : Background on JRF domain RCU tables">JRFドメインRCU表のバックグラウンド</span></h3>
+<p><span class="merged" id="index.3ZdMkM" title="原文 : A JRF domain creates several data sources from the JRF domain template.">JRFドメインは、JRFドメイン・テンプレートから複数のデータ・ソースを作成します。</span></p>
+<table>
+<thead>
+<tr>
+<th><span class="merged" id="index.2otqmH"  title="原文:: Data source name">データ・ソース名</span></th>
+<th><span class="merged" id="index.3Lsujo"  title="原文:: JNDI name">JNDI名</span></th>
+<th><span class="merged" id="index.3V0xam"  title="原文:: Schema">スキーマ</span></th>
+<th><span class="merged" id="index.1CfNCk"  title="原文:: Target">ターゲット</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="merged" id="index.2DEeCP"  title="原文: WLSSchemaDataSource">WLSSchemaDataSource</span></td>
+<td><span class="merged" id="index.3eZbCh"  title="原文: jdbc/WLSSchemaDataSource">jdbc/WLSSchemaDataSource</span></td>
+<td><span class="merged" id="index.3thmbL" title="原文 : prefix_WLS_RUNTIME">prefix_WLS_RUNTIME</span></td>
+<td><span class="merged" id="index.45uvfF"  title="原文:: None">なし</span></td>
+</tr>
+<tr>
+<td><span class="merged" id="index.323pXp"  title="原文: LocalSvcTblDataSource">LocalSvcTblDataSource</span></td>
+<td><span class="merged" id="index.3eZbCh.1"  title="原文: jdbc/WLSSchemaDataSource">jdbc/WLSSchemaDataSource</span></td>
+<td><span class="merged" id="index.4DN0To"  title="原文:: prefix_STB">prefix_STB</span></td>
+<td><span class="merged" id="index.XW7Ar"  title="原文:: admin server">管理サーバー</span></td>
+</tr>
+<tr>
+<td><span class="merged" id="index.1rhDSk"  title="原文:: opss-data-source">opss-data-source</span></td>
+<td><span class="merged" id="index.48yXmN"  title="原文: jdbc/OpssDataSource">jdbc/OpssDataSource</span></td>
+<td><span class="merged" id="index.4FkDeB"  title="原文:: prefix_OPSS">prefix_OPSS</span></td>
+<td><span class="merged" id="index.1Kr8NU" title="原文 : admin server and cluster">管理サーバーとクラスタ</span></td>
+</tr>
+<tr>
+<td><span class="merged" id="index.10Bi2j"  title="原文: opss-audit-viewDS">opss-audit-viewDS</span></td>
+<td><span class="merged" id="index.3RL9O0"  title="原文: jdbc/AuditViewDataSource">jdbc/AuditViewDataSource</span></td>
+<td><span class="merged" id="index.2enoDP" title="原文 : prefix_IAU_VIEWER">prefix_IAU_VIEWER</span></td>
+<td><span class="merged" id="index.1Kr8NU.1" title="原文 : admin server and cluster">管理サーバーとクラスタ</span></td>
+</tr>
+<tr>
+<td><span class="merged" id="index.1XzVpg"  title="原文:: opss-audit-DBDS">opss-audit-DBDS</span></td>
+<td><span class="merged" id="index.VW3EF"  title="原文: jdbc/AuditAppendDataSource">jdbc/AuditAppendDataSource</span></td>
+<td><span class="merged" id="index.2aNUMo" title="原文 : prefix_IAU_APPEND">prefix_IAU_APPEND</span></td>
+<td><span class="merged" id="index.1Kr8NU.2" title="原文 : admin server and cluster">管理サーバーとクラスタ</span></td>
+</tr>
+<tr>
+<td><span class="merged" id="index.46a32t"  title="原文:: mds-owsm">mds-owsm</span></td>
+<td><span class="merged" id="index.2LrHQB" title="原文 : jdbc/mds/owsm">jdbc/mds/owsm</span></td>
+<td><span class="merged" id="index.3pGv3R"  title="原文:: prefix_MDS">prefix_MDS</span></td>
+<td><span class="merged" id="index.1Kr8NU.3" title="原文 : admin server and cluster">管理サーバーとクラスタ</span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="merged" id="index.3gDQ9I.spl1" title="原文 : By default, the JRF domain template data source has only the default information such as URL and schema with the default prefix DEV.">デフォルトでは、JRFドメイン・テンプレートのデータ・ソースには、デフォルトのプレフィクス<code>DEV</code>を持つURLやスキーマなどのデフォルト情報のみが含まれます。</span> <span class="merged" id="index.3gDQ9I.spl2" title="原文 : During domain creation, WDT will use the information you provided in the command line or in the RCUDbinfo section to override the default values from the template so that it can connect to the database you specified.">ドメインの作成時に、WDTはコマンドラインまたは<code>RCUDbinfo</code>セクションで指定した情報を使用して、指定したデータベースに接続できるようにテンプレートからデフォルト値をオーバーライドします。</span> </p>
+<p><span class="merged" id="index.3LBZx6.spl1" title="原文 : For some advanced use cases, such as using an Oracle Active GridLink data source or Multi Data Sources, you can provide a sparse model of the data sources in a separate model file during domain creation.">Oracle Active GridLinkデータ・ソースまたはマルチ・データ・ソースの使用など、高度なユースケースでは、ドメイン作成時に別のモデル・ファイルにデータ・ソースのスパース・モデルを提供できます。</span> <span class="merged" id="index.3LBZx6.spl2" title="原文 : See Advance use cases."><a href="index.html#advanced-jrf-database-use-cases">「アドバンス・ユース・ケース」</a>を参照してください。</span> </p>
+<h3 id="access-a-database-using-a-wallet"><span class="merged" id="index.2DkDx7" title="原文 : Access a database using a wallet">ウォレットを使用したデータベースへのアクセス</span></h3>
+<p><span class="merged" id="index.26WkPO" title="原文 : When accessing a database, such as ATP or SSL, using a wallet, you need to obtain the wallet from your DBA and information about the database:">ウォレットを使用してATPやSSLなどのデータベースにアクセスする場合は、DBAからウォレットを取得し、データベースに関する情報を取得する必要があります:</span></p>
+<ul>
+<li>
+<p><span class="merged" id="index.2hBFHB.spl1" title="原文 : tns alias - The network service name."><code>tns alias</code> - ネットワーク・サービス名。</span> <span class="merged" id="index.2hBFHB.spl2" title="原文 : You can find this in the tnsnames.ora file inside the database wallet.">これは、データベース・ウォレット内の<code>tnsnames.ora</code>ファイルにあります。</span> <span class="merged" id="index.2hBFHB.spl3" title="原文 : The alias is on the left side of the equals sign.">別名は等号の左側にあります。</span> </p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">xxxx = (DESCRIPTION ...)
+yyyy = (DESCRIPTION ...)
+...
+</code></pre></div></li>
+<li>
+<p><span class="merged" id="index.19JOoP" title="原文 : keystore and truststore password - Password used to generate the wallet."><code>keystore and truststore password</code> - ウォレットの生成に使用するパスワード。</span></p>
+</li>
+<li>
+<p><span class="merged" id="index.4T1IA9" title="原文 : keystore and truststore type - SSO or PKCS12."><code>keystore and truststore type</code> - SSOまたはPKCS12。</span></p>
+</li>
+<li>
+<p><span class="merged" id="index.1EfA2S" title="原文 : keystore and truststore file - cwallet.sso (if store type is SSO), ewallet.p12 (if store type is PKCS12)."><code>keystore and truststore file</code> - <code>cwallet.sso</code> (ストア・タイプがSSOの場合)、<code>ewallet.p12</code> (ストア・タイプがPKCS12の場合)。</span></p>
+</li>
+</ul>
+<p><span class="merged" id="index.1YvcMG" title="原文 : Depending on the type of database and the choice of method for authentication, you can provide the necessary information with RCUDbInfo in the model.">データベースのタイプおよび認証メソッドの選択に応じて、モデル内の<code>RCUDbInfo</code>に必要な情報を指定できます。</span></p>
+<h4 id="atp-database"><span class="merged" id="index.2dMEcE" title="原文 : ATP database">ATPデータベース</span></h4>
+<p><span class="merged" id="index.49lxna" title="原文 : For example, to use the Oracle Autonomous Transaction Processing Cloud Database for a JRF domain, specify the following information in the model:">たとえば、JRFドメインにOracle Autonomous Transaction Processingクラウド・データベースを使用するには、モデルに次の情報を指定します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+        <span style="color:#f92672">databaseType </span>: <span style="color:#e6db74">&#39;ATP&#39;</span>
+        <span style="color:#f92672">rcu_prefix </span>: <span style="color:#ae81ff">DEV</span>
+        <span style="color:#f92672">rcu_admin_password</span>: <span style="color:#ae81ff">&lt;database admin password is required only when you specify -run_rcu flag&gt;</span>
+        <span style="color:#f92672">rcu_schema_password </span>: <span style="color:#ae81ff">&lt;RCU schema password&gt;</span>
+        <span style="color:#f92672">rcu_db_user </span>: <span style="color:#ae81ff">admin</span>
+        <span style="color:#f92672">tns.alias </span>: <span style="color:#ae81ff">&lt;tns alias name. e.g. dbname_tp&gt;</span>
+        <span style="color:#f92672">javax.net.ssl.keyStorePassword </span>: <span style="color:#ae81ff">&lt;atp wallet password when generating the wallet from Oracle Cloud Console&gt;</span>
+        <span style="color:#f92672">javax.net.ssl.trustStorePassword </span>: <span style="color:#ae81ff">&lt;atp wallet password when generating the wallet from Oracle Cloud Console&gt;</span>
+        <span style="color:#f92672">oracle.net.tns_admin: &lt;optional</span>: <span style="color:#ae81ff">absolute path of the unzipped wallet root directory (outside of the archive), if the wallet.zip is not included in the archive&gt;</span>
+</code></pre></div><p><span class="merged" id="index.OX6jX" title="原文 : The database wallet can be included in the archive file under atpwallet zipentry structure">データベース・ウォレットは、<code>atpwallet</code> zipentry構造のアーカイブ・ファイルに含めることができます</span></p>
+<p><span class="merged" id="index.3kgVsL"  title="原文: atpwallet/Walletxyz.zip"><code>atpwallet/Walletxyz.zip</code></span></p>
+<p><span class="merged" id="index.BR3Ek" title="原文 : Or, by specifying the unzipped root directory of the ATP wallet ZIP file in oracle.net.tns_admin.">または、<code>oracle.net.tns_admin</code>のATPウォレットZIPファイルの解凍されたルート・ディレクトリを指定します。</span></p>
+<p><span class="merged" id="index.4GSqMD" title="原文 : Note: Prior to release 0.23, the useATP flag only accepts values of 0, 1, true, or false."><strong>ノート: 0.23をリリースする前に、<code>useATP</code>フラグは<code>0</code>, <code>1</code>, <code>true</code>または<code>false</code>の値のみを受け入れます。</strong></span></p>
+<h4 id="ssl-database-using-sso-for-authentication"><span class="merged" id="index.2rquKL" title="原文 : SSL database using SSO for authentication">認証にSSOを使用するSSLデータベース</span></h4>
+<p><span class="merged" id="index.4gETQS" title="原文 : For an Oracle SSL database with TW0_WAY SSL enabled, with an SSO wallet, use the following example:">TW0_WAY SSLを有効にしたOracle SSLデータベース(<code>SSO</code>ウォレットを使用)の場合は、次の例を使用します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+      <span style="color:#f92672">databaseType </span>: <span style="color:#e6db74">&#39;SSL&#39;</span>
+      <span style="color:#f92672">rcu_db_conn_string</span>: <span style="color:#ae81ff">&lt;required URL string for use with -run_rcu&gt;</span>
+      <span style="color:#f92672">rcu_prefix </span>: <span style="color:#ae81ff">DEV</span>
+      <span style="color:#f92672">rcu_admin_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">rcu_schema_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">tns.alias</span>: <span style="color:#ae81ff">&lt;alias of ssl db in the tnsnames.ora file&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.keyStore</span>: <span style="color:#ae81ff">&lt;keystore found in unzipped wallet, i.e. cwallet.sso&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.keyStoreType</span>: <span style="color:#ae81ff">SSO</span>
+      <span style="color:#f92672">javax.net,ssl.trustStore</span>: <span style="color:#ae81ff">&lt;truststore found in unzipped wallet, i.e cwallet.sso&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.trustStoreType</span>: <span style="color:#ae81ff">SSO</span>
+      <span style="color:#f92672">oracle.net.tns_admin</span>: <span style="color:#ae81ff">&lt;absolute path of the unzipped wallet root directory&gt;</span>
+
+</code></pre></div><p><span class="merged" id="index.4IlvD7" title="原文 : For an Oracle SSL database with ONE_WAY SSL enabled, with an SSO wallet, use the following example:">ONE_WAY SSLを有効にしたOracle SSLデータベース(<code>SSO</code>ウォレットを使用)の場合は、次の例を使用します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+      <span style="color:#f92672">databaseType </span>: <span style="color:#e6db74">&#39;SSL&#39;</span>
+      <span style="color:#f92672">rcu_db_conn_string</span>: <span style="color:#ae81ff">&lt;required URL string for use with -run_rcu&gt;</span>
+      <span style="color:#f92672">rcu_prefix </span>: <span style="color:#ae81ff">DEV</span>
+      <span style="color:#f92672">rcu_admin_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">rcu_schema_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">tns.alias</span>: <span style="color:#ae81ff">&lt;alias of ssl db in the tnsnames.ora file&gt;</span>
+      <span style="color:#f92672">javax.net,ssl.trustStore</span>: <span style="color:#ae81ff">&lt;truststore found in unzipped wallet, i.e cwallet.sso&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.trustStoreType</span>: <span style="color:#ae81ff">SSO</span>
+      <span style="color:#f92672">oracle.net.tns_admin</span>: <span style="color:#ae81ff">&lt;absolute path of the unzipped wallet root directory&gt;</span>
+
+</code></pre></div><h4 id="ssl-database-using-pkcs12-for-authentication"><span class="merged" id="index.4QuKcq" title="原文 : SSL database using PKCS12 for authentication">認証にPKCS12を使用するSSLデータベース</span></h4>
+<p><span class="merged" id="index.1zMFEN" title="原文 : For an Oracle SSL database with TW0_WAY SSL enabled, with a PKCS12 wallet, use the following example:">TW0_WAY SSLを有効にしたOracle SSLデータベース(<code>PKCS12</code>ウォレットを使用)の場合は、次の例を使用します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+      <span style="color:#f92672">databaseType </span>: <span style="color:#e6db74">&#39;SSL&#39;</span>
+      <span style="color:#f92672">rcu_db_conn_string</span>: <span style="color:#ae81ff">&lt;required URL string for use with -run_rcu&gt;</span>
+      <span style="color:#f92672">rcu_prefix </span>: <span style="color:#ae81ff">DEV</span>
+      <span style="color:#f92672">rcu_admin_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">rcu_schema_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">tns.alias</span>: <span style="color:#ae81ff">&lt;alias of ssl db in the tnsnames.ora file&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.keyStore</span>: <span style="color:#ae81ff">&lt;keystore found in the unzipped wallet, i.e. ewallet.p12&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.keyStoreType</span>: <span style="color:#ae81ff">PKCS12</span>
+      <span style="color:#f92672">javax.net.ssl.keyStorePassword</span>: <span style="color:#ae81ff">&lt;keystore password&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.trustStore</span>: <span style="color:#ae81ff">&lt;truststore found in the unzipped wallet, i.e ewallet.p12&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.trustStoreType</span>: <span style="color:#ae81ff">PKCS12</span>
+      <span style="color:#f92672">javax.net.ssl.trustStorePassword</span>: <span style="color:#ae81ff">&lt;password of the truststore&gt;</span>
+      <span style="color:#f92672">oracle.net.tns_admin</span>: <span style="color:#ae81ff">&lt;absolute path of the unzipped wallet root directory&gt;</span>
+
+</code></pre></div><p><span class="merged" id="index.3lg1RN" title="原文 : For an Oracle SSL database with ONE_WAY SSL enabled, with a PKCS12 wallet, use the following example:">ONE_WAY SSLを有効にしたOracle SSLデータベース(<code>PKCS12</code>ウォレットを使用)の場合は、次の例を使用します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+      <span style="color:#f92672">databaseType </span>: <span style="color:#e6db74">&#39;SSL&#39;</span>
+      <span style="color:#f92672">rcu_db_conn_string</span>: <span style="color:#ae81ff">&lt;required URL string for use with -run_rcu&gt;</span>
+      <span style="color:#f92672">rcu_prefix </span>: <span style="color:#ae81ff">DEV</span>
+      <span style="color:#f92672">rcu_admin_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">rcu_schema_password</span>: <span style="color:#ae81ff">&lt;required with -run_rcu flag&gt;</span>
+      <span style="color:#f92672">tns.alias</span>: <span style="color:#ae81ff">&lt;alias of ssl db in the tnsnames.ora file&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.trustStore</span>: <span style="color:#ae81ff">&lt;truststore found in the unzipped wallet, i.e ewallet.p12&gt;</span>
+      <span style="color:#f92672">javax.net.ssl.trustStoreType</span>: <span style="color:#ae81ff">PKCS12</span>
+      <span style="color:#f92672">javax.net.ssl.trustStorePassword</span>: <span style="color:#ae81ff">&lt;password of the truststore&gt;</span>
+      <span style="color:#f92672">oracle.net.tns_admin</span>: <span style="color:#ae81ff">&lt;absolute path of the unzipped wallet root directory&gt;</span>
+
+</code></pre></div><p><span class="merged" id="index.2SQ6jb.spl1" title="原文 : When using a PKCS12 wallet, you must include the Oracle PKI provider to access your wallet.">PKCS12ウォレットを使用する場合は、ウォレットにアクセスするためにOracle PKIプロバイダを含める必要があります。</span> <span class="merged" id="index.2SQ6jb.spl2" title="原文 : Add the Oracle PKI provider to your Java java.security file.">Java <code>java.security</code>ファイルにOracle PKIプロバイダを追加します。</span> <span class="merged" id="index.2SQ6jb.spl3" title="原文 : For more information, see Section 2.2.4 &ldquo;How can Oracle wallets be used in Java&rdquo; in SSL with Oracle JDBC Thin Driver.">詳細は、<a href="https://www.oracle.com/technetwork/topics/wp-oracle-jdbc-thin-ssl-130128.pdf">「Oracle JDBC ThinドライバによるSSL」</a>の2.2.4「OracleウォレットをJavaで使用する方法」を参照してください。</span> </p>
+<h3 id="access-a-database-without-using-a-wallet-non-wallet-based-access"><span class="merged" id="index.2TQX9m" title="原文 : Access a database without using a wallet (non wallet-based access)">ウォレットを使用せずにデータベースにアクセス(ウォレット・ベースのアクセス以外)</span></h3>
+<p><span class="merged" id="index.3TBRR3" title="原文 : For a typical database, use the following example:">一般的なデータベースの場合は、次の例を使用します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+        <span style="color:#f92672">rcu_prefix </span>: <span style="color:#ae81ff">DEV</span>
+        <span style="color:#75715e"># Optional rcu_db_user for creating RCU schema if -run_rcu flag is specified. Default user is SYS if not specified.</span>
+        <span style="color:#75715e"># This user must have SYSDBA privilege and this is the equivalent of -dbUser in the RCU utility.</span>
+        <span style="color:#f92672">rcu_db_user</span>: <span style="color:#ae81ff">superuser</span>
+        <span style="color:#f92672">rcu_schema_password </span>: <span style="color:#ae81ff">&lt;rcu schema password, will be prompted if not specified&gt;</span>
+        <span style="color:#f92672">rcu_admin_password </span>: <span style="color:#ae81ff">&lt;database admin password is required only when you specify -run_rcu flag, will be prompted</span>
+         <span style="color:#ae81ff">if not specified&gt;</span>
+        <span style="color:#f92672">rcu_db_conn_string </span>: <span style="color:#ae81ff">dbhost:1521/pdborcl</span>
+</code></pre></div><h3 id="specify-variables-for-rcu"><span class="merged" id="index.4YpCUU" title="原文 : Specify variables for RCU">RCUの変数の指定</span></h3>
+<p><span class="merged" id="index.3tqu5d" title="原文 : RCU -variables option of the repository creation utility can now be included in the RCUDbInfo section with the key rcu_variables:">リポジトリ作成ユーティリティのRCU <code>-variables</code>オプションを、キー<code>rcu_variables</code>の<code>RCUDbInfo</code>セクションに含めることができるようになりました:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+        <span style="color:#f92672">rcu_variables </span>: <span style="color:#ae81ff">xxxx</span>
+</code></pre></div><h3 id="specify-extended-xml-files-for-rcu"><span class="merged" id="index.2aCJan" title="原文 : Specify extended XML files for RCU">RCUの拡張XMLファイルの指定</span></h3>
+<p><span class="merged" id="index.qMcf9" title="原文 : When creating a domain using WDT and the -run_rcu option, you can specify your extended XML files in the RCUDbInfo section.">WDTおよび<code>-run_rcu</code>オプションを使用してドメインを作成する場合、<code>RCUDbInfo</code>セクションで拡張XMLファイルを指定できます。</span></p>
+<p><span class="merged" id="index.4cmylz" title="原文 : This correlates to the createRepository and dropRepository command-line arguments RCU -compInfoXMLLocation &lt;file path&gt; -storageXMLLocation &lt;file path&gt;.">これは、<code>createRepository</code>および<code>dropRepository</code>コマンドライン引数<code>RCU -compInfoXMLLocation &lt;file path> -storageXMLLocation &lt;file path></code>に関連付けられます。</span></p>
+<p><span class="merged" id="index.1vGYTL.spl1" title="原文 : Include your XML files in your archive file using the location wlsdeploy/rcu/config."><code>wlsdeploy/rcu/config</code>のロケーションを使用して、XMLファイルをアーカイブ・ファイルに含めます。</span> <span class="merged" id="index.1vGYTL.spl2" title="原文 : Then include this relative location in the RCUDbInfo section of the model.">次に、モデルの<code>RCUDbInfo</code>セクションに、この相対的なロケーションを含めます。</span> </p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+    <span style="color:#f92672">RCUDbInfo</span>:
+        <span style="color:#f92672">compInfoXMLLocation</span>: <span style="color:#ae81ff">wlsdeploy/rcu/config/MyComponentInfo.xml</span>
+        <span style="color:#f92672">storageXMLLocation</span>: <span style="color:#ae81ff">wlsdeploy/rcu/config/MyStorage.xml</span>
+</code></pre></div><h3 id="advanced-jrf-database-use-cases"><span class="merged" id="index.3tSPMF" title="原文 : Advanced JRF database use cases">Advanced JRFデータベースのユース・ケース</span></h3>
+<p><span class="merged" id="index.4Tmpo8" title="原文 : In the following examples of the JRF data source sparse model, you can use it to further customize the JRF domain template data sources.">次のJRFデータ・ソース・スパース・モデルの例では、これを使用してJRFドメイン・テンプレートのデータ・ソースをさらにカスタマイズできます。</span></p>
+<h4 id="default-template-data-source"><span class="merged" id="index.19zJJo" title="原文 : Default template data source">デフォルト・テンプレート・データ・ソース</span></h4>
+<p><span class="merged" id="index.3Led3z.spl1" title="原文 : This is a sparse model for JRF data sources with the RCU prefix FMW1.">これは、RCUプレフィクス<code>FMW1</code>を持つJRFデータ・ソースのスパース・モデルです。</span> <span class="merged" id="index.3Led3z.spl2" title="原文 :  You will need to update at least the URL, PasswordEncrypted, and the user property value."><br>少なくとも<code>URL</code>、<code>PasswordEncrypted</code>および<code>user</code>プロパティ値を更新する必要があります。</span> <span class="merged" id="index.3Led3z.spl3" title="原文 : When you specify the value of URL, it must be a valid JDBC URL format, which is different from the rcu_db_conn_string which does not require the jdbc:oracle:thin:... part."><code>URL</code>の値を指定する場合は、<code>jdbc:oracle:thin:...</code>部分を必要としない<code>rcu_db_conn_string</code>とは異なる有効な<code>JDBC URL</code>形式である必要があります。</span> </p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">resources</span>:
+   <span style="color:#f92672">JDBCSystemResource</span>:
+        <span style="color:#f92672">WLSSchemaDataSource</span>:
+            <span style="color:#f92672">JdbcResource</span>:
+                <span style="color:#f92672">JDBCConnectionPoolParams</span>:
+                    <span style="color:#f92672">TestTableName</span>: <span style="color:#ae81ff">SQL ISVALID</span>
+                    <span style="color:#f92672">MaxCapacity</span>: <span style="color:#ae81ff">75</span>
+                <span style="color:#f92672">JDBCDataSourceParams</span>:
+                    <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                    <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/WLSSchemaDataSource</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+                    <span style="color:#f92672">Properties</span>:
+                        <span style="color:#f92672">user</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#ae81ff">FMW1_WLS_RUNTIME</span>
+        <span style="color:#f92672">LocalSvcTblDataSource</span>:
+            <span style="color:#f92672">Target</span>: <span style="color:#ae81ff">admin-server</span>
+            <span style="color:#f92672">JdbcResource</span>:
+                <span style="color:#f92672">JDBCConnectionPoolParams</span>:
+                    <span style="color:#f92672">InitialCapacity</span>: <span style="color:#ae81ff">0</span>
+                    <span style="color:#f92672">CapacityIncrement</span>: <span style="color:#ae81ff">1</span>
+                    <span style="color:#f92672">TestConnectionsOnReserve</span>: <span style="color:#66d9ef">true</span>
+                    <span style="color:#f92672">ConnectionCreationRetryFrequencySeconds</span>: <span style="color:#ae81ff">10</span>
+                    <span style="color:#f92672">TestTableName</span>: <span style="color:#ae81ff">SQL ISVALID</span>
+                    <span style="color:#f92672">TestFrequencySeconds</span>: <span style="color:#ae81ff">300</span>
+                    <span style="color:#f92672">SecondsToTrustAnIdlePoolConnection</span>: <span style="color:#ae81ff">0</span>
+                    <span style="color:#f92672">MaxCapacity</span>: <span style="color:#ae81ff">200</span>
+                <span style="color:#f92672">JDBCDataSourceParams</span>:
+                    <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                    <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/LocalSvcTblDataSource</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+                    <span style="color:#f92672">Properties</span>:
+                        <span style="color:#f92672">user</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#ae81ff">FMW1_STB</span>
+                        <span style="color:#f92672">oracle.net.CONNECT_TIMEOUT</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#e6db74">&#39;10000&#39;</span>
+                        <span style="color:#f92672">SendStreamAsBlob</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#e6db74">&#39;true&#39;</span>
+                        <span style="color:#f92672">weblogic.jdbc.crossPartitionEnabled</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#e6db74">&#39;true&#39;</span>
+        <span style="color:#f92672">opss-data-source</span>:
+            <span style="color:#f92672">Target</span>: <span style="color:#ae81ff">cluster-1,admin-server</span>
+            <span style="color:#f92672">JdbcResource</span>:
+                <span style="color:#f92672">JDBCConnectionPoolParams</span>:
+                    <span style="color:#f92672">TestTableName</span>: <span style="color:#ae81ff">SQL ISVALID</span>
+                <span style="color:#f92672">JDBCDataSourceParams</span>:
+                    <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                    <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/OpssDataSource</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+                    <span style="color:#f92672">Properties</span>:
+                        <span style="color:#f92672">user</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#ae81ff">FMW1_OPSS</span>
+        <span style="color:#f92672">opss-audit-viewDS</span>:
+            <span style="color:#f92672">Target</span>: <span style="color:#ae81ff">cluster-1,admin-server</span>
+            <span style="color:#f92672">JdbcResource</span>:
+                <span style="color:#f92672">JDBCConnectionPoolParams</span>:
+                    <span style="color:#f92672">TestTableName</span>: <span style="color:#ae81ff">SQL ISVALID</span>
+                <span style="color:#f92672">JDBCDataSourceParams</span>:
+                    <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                    <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/AuditViewDataSource</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+                    <span style="color:#f92672">Properties</span>:
+                        <span style="color:#f92672">user</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#ae81ff">FMW1_IAU_VIEWER</span>
+        <span style="color:#f92672">opss-audit-DBDS</span>:
+            <span style="color:#f92672">Target</span>: <span style="color:#ae81ff">cluster-1,admin-server</span>
+            <span style="color:#f92672">JdbcResource</span>:
+                <span style="color:#f92672">JDBCConnectionPoolParams</span>:
+                    <span style="color:#f92672">TestTableName</span>: <span style="color:#ae81ff">SQL ISVALID</span>
+                <span style="color:#f92672">JDBCDataSourceParams</span>:
+                    <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                    <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/AuditAppendDataSource</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+                    <span style="color:#f92672">Properties</span>:
+                        <span style="color:#f92672">user</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#ae81ff">FMW1_IAU_APPEND</span>
+        <span style="color:#f92672">mds-owsm</span>:
+            <span style="color:#f92672">Target</span>: <span style="color:#ae81ff">cluster-1,admin-server</span>
+            <span style="color:#f92672">JdbcResource</span>:
+                <span style="color:#f92672">JDBCConnectionPoolParams</span>:
+                    <span style="color:#f92672">InitialCapacity</span>: <span style="color:#ae81ff">0</span>
+                    <span style="color:#f92672">TestConnectionsOnReserve</span>: <span style="color:#66d9ef">true</span>
+                    <span style="color:#f92672">ConnectionCreationRetryFrequencySeconds</span>: <span style="color:#ae81ff">10</span>
+                    <span style="color:#f92672">TestTableName</span>: <span style="color:#ae81ff">SQL ISVALID</span>
+                    <span style="color:#f92672">TestFrequencySeconds</span>: <span style="color:#ae81ff">300</span>
+                    <span style="color:#f92672">SecondsToTrustAnIdlePoolConnection</span>: <span style="color:#ae81ff">0</span>
+                <span style="color:#f92672">JDBCDataSourceParams</span>:
+                    <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                    <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/mds/owsm</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>: --<span style="color:#ae81ff">FIX ME--</span>
+                    <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+                    <span style="color:#f92672">Properties</span>:
+                        <span style="color:#f92672">user</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#ae81ff">FMW1_MDS</span>
+                        <span style="color:#f92672">oracle.net.CONNECT_TIMEOUT</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#e6db74">&#39;120000&#39;</span>
+                        <span style="color:#f92672">SendStreamAsBlob</span>:
+                            <span style="color:#f92672">Value</span>: <span style="color:#e6db74">&#39;true&#39;</span>
+</code></pre></div><h4 id="oracle-active-grid-link-data-source-agl"><span class="merged" id="index.Xee4v" title="原文 : Oracle Active Grid Link Data Source (AGL)">Oracle Active Grid Linkデータソース(AGL)</span></h4>
+<p><span class="merged" id="index.4QmA4d.spl1" title="原文 : For setting the data source to access Oracle Active Grid Link database, besides updating the URL, PasswordEncrypted, and the user property value; you can specify additional JDBCOracleParams under JdbcResource of each data source."><code>URL</code>、<code>PasswordEncrypted</code>および<code>user</code>プロパティ値を更新するだけでなく、Oracle Active Grid Linkデータベースにアクセスするようにデータ・ソースを設定する場合、各データ・ソースの<code>JdbcResource</code>の下に追加の<code>JDBCOracleParams</code>を指定できます。</span> <span class="merged" id="index.4QmA4d.spl2"  title="原文:: For example,">次に例を示します。</span> </p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#f92672">mds-owsm</span>:
+            <span style="color:#f92672">Target</span>: <span style="color:#ae81ff">cluster-1,admin-server</span>
+            <span style="color:#f92672">JdbcResource</span>:
+              <span style="color:#f92672">JDBCOracleParams</span>:
+                <span style="color:#f92672">OnsNodeList</span>:  <span style="color:#e6db74">&#39;node1, node2&#39;</span>
+                <span style="color:#ae81ff">....</span>
+</code></pre></div><p><span class="merged" id="index.4eO1Su" title="原文 : For the complete list of fields, run the WDT command,">フィールドの完全なリストについては、WDTコマンドを実行</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">modelHelp.sh -oracle_home &lt;oracle home&gt; resources:/JDBCSystemResource/JdbcResource/JDBCOracleParams
+</code></pre></div><h4 id="multi-data-sources"><span class="merged" id="index.1W9uAj"  title="原文:: Multi Data Sources"> マルチ・データ・ソース</span></h4>
+<p><span class="merged" id="index.4bvgee.spl1" title="原文 : If your database does not support high availability natively, such as RAC or AGL, then WebLogic provides a Multi Data Source option, where basically the main data source is a logical data source that contains multiple physical data sources.">データベースでRACやAGLなどの高可用性をネイティブでサポートしていない場合、WebLogicには「マルチ・データ・ソース」オプションがあり、基本的にはメイン・データ・ソースは複数の物理データ・ソースを含む論理データ・ソースです。</span> <span class="merged" id="index.4bvgee.spl2" title="原文 : In order to create a spare model, for each data source, you can:">スペア・モデルを作成するには、データ・ソースごとに次を実行できます:</span> </p>
+<ol>
+<li><span class="merged" id="index.2V4E3u.spl1" title="原文 : Update the templated data source URL, EncryptedPassword, and &lsquo;user&rsquo; property value.">テンプレート化されたデータ・ソース<code>URL</code>、<code>EncryptedPassword</code>およびuserプロパティ値を更新します。</span> <span class="merged" id="index.2V4E3u.spl2" title="原文 : In the URL part, you can specify one of the accessible physical database URL."><code>URL</code>部分では、アクセス可能な物理データベースURLのいずれかを指定できます。</span> </li>
+<li><span class="merged" id="index.3UE5LO" title="原文 : Duplicate each datasource two times.">各データソースを2回複製します。</span></li>
+<li><span class="merged" id="index.269MUM.spl1" title="原文 : Change the duplicated data source name, JNDIName by appending -1, -2, and such."><code>-1</code>、<code>-2</code>などを追加して、複製されたデータ・ソース名<code>JNDIName</code>を変更します。</span> <span class="merged" id="index.269MUM.spl2" title="原文 : The -1, -2 data sources are the physical data source; you will need to update their URL too."><code>-1</code>、<code>-2</code>データ・ソースは物理データ・ソースです。<code>URL</code>も更新する必要があります。</span> </li>
+</ol>
+<p><span class="merged" id="index.1m1uPD" title="原文 : For example (note: details replaced by .... for easier reading):">例(ノート) : 読みやすくするために<code>....</code>に置き換えられた詳細:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">       <span style="color:#f92672">opss-data-source</span>:
+           <span style="color:#ae81ff">....</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: <span style="color:#ae81ff">jdbc:oracle:thin://@somewhere:1521/db-node1</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>:  <span style="color:#e6db74">&#39;actualpassword`
+</span><span style="color:#e6db74">           .... 
+</span><span style="color:#e6db74">       &#39;</span><span style="color:#f92672">opss-data-source-1&#39;</span>:
+           <span style="color:#ae81ff">....</span>
+               <span style="color:#f92672">JDBCDataSourceParams</span>:
+                 <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+                 <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/OpssDataSource-2</span>
+                <span style="color:#f92672">JDBCDriverParams</span>:
+                    <span style="color:#f92672">URL</span>: <span style="color:#ae81ff">jdbc:oracle:thin://@somewhere:1521/db-node1</span>
+                    <span style="color:#f92672">PasswordEncrypted</span>:  <span style="color:#e6db74">&#39;actualpassword`
+</span><span style="color:#e6db74">           ....
+</span><span style="color:#e6db74">       &#39;</span><span style="color:#f92672">opss-data-source-2&#39;</span>:
+          <span style="color:#ae81ff">....</span>
+           <span style="color:#f92672">JDBCDataSourceParams</span>:
+             <span style="color:#f92672">GlobalTransactionsProtocol</span>: <span style="color:#ae81ff">None</span>
+             <span style="color:#f92672">JNDIName</span>: <span style="color:#ae81ff">jdbc/OpssDataSource-2</span>
+           <span style="color:#f92672">JDBCDriverParams</span>:
+             <span style="color:#f92672">URL</span>: <span style="color:#ae81ff">jdbc:oracle:thin://@somewhere:1521/db-node2</span>
+             <span style="color:#f92672">PasswordEncrypted</span>:  <span style="color:#ae81ff">&#39;actualpassword`</span>
+             <span style="color:#f92672">DriverName</span>: <span style="color:#ae81ff">oracle.jdbc.OracleDriver</span>
+           <span style="color:#ae81ff">....</span>
+</code></pre></div><ol start="4">
+<li><span class="merged" id="index.1Yk8z4" title="原文 : Update the original data source to include the physical data source list.">元のデータ・ソースを更新して、物理データ・ソース・リストを含めます。</span></li>
+</ol>
+<p><span class="merged" id="index.4RfuGc"  title="原文:: For example,">次に例を示します。</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">       <span style="color:#f92672">opss-data-source</span>:
+           <span style="color:#ae81ff">....</span>
+            <span style="color:#f92672">JDBCDataSourceParams</span>:
+              <span style="color:#f92672">DataSourceList</span>:  <span style="color:#e6db74">&#39;opss-data-source-1, opss-data-source-2&#39;</span>
+              <span style="color:#f92672">AlgorithmType</span>:  <span style="color:#e6db74">&#39;FailOver&#39;</span>
+           <span style="color:#ae81ff">....</span>
+</code></pre></div><p><span class="merged" id="index.4eO1Su.1" title="原文 : For the complete list of fields, run the WDT command,">フィールドの完全なリストについては、WDTコマンドを実行</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">modelHelp.sh -oracle_home &lt;oracle home&gt; resources:/JDBCSystemResource/JdbcResource/JDBCOracleParams
+</code></pre></div>
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+		
+			<a class="nav nav-next" href="../concepts/index.html" style="margin-right: 0px;" ><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../js/clipboard.min.js?1666898261"></script>
+    <script src="../js/perfect-scrollbar.min.js?1666898261"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1666898261"></script>
+    <script src="../js/jquery.sticky.js?1666898261"></script>
+    <script src="../js/featherlight.min.js?1666898261"></script>
+    <script src="../js/highlight.pack.js?1666898261"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../js/modernizr.custom-3.6.0.js?1666898261"></script>
+    <script src="../js/learn.js?1666898261"></script>
+    <script src="../js/hugo-learn.js?1666898261"></script>
+    
+        
+            <script src="../mermaid/mermaid.js?1666898261"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>

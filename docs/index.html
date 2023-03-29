@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<html lang="ja" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.82.0" />
+    <meta content="" name="description">
+
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <title> :: WebLogic Deploy Tooling</title>
+
+    
+    <link href="css/nucleus.css?1666898261" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css?1666898261" rel="stylesheet">
+    <link href="css/hybrid.css?1666898261" rel="stylesheet">
+    <link href="css/featherlight.min.css?1666898261" rel="stylesheet">
+    <link href="css/perfect-scrollbar.min.css?1666898261" rel="stylesheet">
+    <link href="css/auto-complete.css?1666898261" rel="stylesheet">
+    <link href="css/atom-one-dark-reasonable.css?1666898261" rel="stylesheet">
+    <link href="css/theme.css?1666898261" rel="stylesheet">
+    <link href="css/tabs.css?1666898261" rel="stylesheet">
+    <link href="css/hugo-theme.css?1666898261" rel="stylesheet">
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js?1666898261"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      
+    </style>
+    
+  <meta HTTP-EQUIV="Content-Type" Content="text/html; charset=utf-8"></head>
+  <style type="text/css"> <!-- .merged:hover {text-decoration: underline;} --> </style>
+<body class="" data-url="/weblogic-deploy-tooling/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <span class="merged" id="index.2vuW3S"  title="原文::  WebLogic Deploy Tooling "><a href="https://oracle.github.io/weblogic-deploy-tooling" id="logo"> <img height="90" src="images/logo.png"><br /> WebLogic Deploy Tooling </a></span>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="js/lunr.min.js?1666898261"></script>
+<script type="text/javascript" src="js/auto-complete.js?1666898261"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/oracle.github.io\/weblogic-deploy-tooling";
+    
+</script>
+<script type="text/javascript" src="js/search.js?1666898261"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <span class="merged" id="index.1MwL1i"  title="原文::  Home"><a class="padding" href='https://oracle.github.io/weblogic-deploy-tooling'><i class='fas fa-home'></i> ホーム</a></span>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/concepts/" title=" 概念">
+      <span class="merged" id="index.3IxesR" title="原文 :  Concepts "><a href="concepts/index.html"><b></b>概念 </a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/concepts/model/" title="メタデータ・モデル">
+        <span class="merged" id="index.1XMzqK" title="原文 :  Metadata Model "><a href="concepts/model/index.html">メタデータ・モデル</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/concepts/archive/" title="アーカイブ・ファイル">
+        <span class="merged" id="index.1Vnhc7"  title="原文::  Archive File "><a href="concepts/archive/index.html"> アーカイブ・ファイル </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/" title="ユーザー・ガイド">
+      <span class="merged" id="index.Uu9b9"  title="原文::  User Guide "><a href="userguide/index.html"> <b> </b>ユーザー・ガイド </a></span>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/install/" title="WDTのインストール">
+        <span class="merged" id="index.1bvlGp" title="原文 :  Install WDT "><a href="userguide/install/index.html">WDTのインストール</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/tools/" title="WDTツール">
+      <span class="merged" id="index.18ke5w" title="原文 :  WDT Tools "><a href="userguide/tools/index.html"><b></b> WDTツール</a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/create/" title="Create Domain Tool">
+        <span class="merged" id="index.2bvXUM" title="原文 :  Create Domain Tool "><a href="userguide/tools/create/index.html"> Create Domain Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/update/" title="Update Domain Tool">
+        <span class="merged" id="index.1Cd2C7" title="原文 :  Update Domain Tool "><a href="userguide/tools/update/index.html"> Update Domain Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/deploy/" title="Deploy Applications Tool">
+        <span class="merged" id="index.27pcLb" title="原文 :  Deploy Applications Tool "><a href="userguide/tools/deploy/index.html"> Deploy Applications Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/discover/" title="Discover Domain Tool">
+        <span class="merged" id="index.48HRkY" title="原文 :  Discover Domain Tool "><a href="userguide/tools/discover/index.html"> Discover Domain Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/encrypt/" title="Encrypt Model Tool">
+        <span class="merged" id="index.4daEdC" title="原文 :  Encrypt Model Tool "><a href="userguide/tools/encrypt/index.html"> Encrypt Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/validate/" title="Validate Model Tool">
+        <span class="merged" id="index.15H7k3" title="原文 :  Validate Model Tool "><a href="userguide/tools/validate/index.html"> Validate Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/compare/" title="Compare Model Tool">
+        <span class="merged" id="index.27Ar1P" title="原文 :  Compare Model Tool "><a href="userguide/tools/compare/index.html"> Compare Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/prepare/" title="Prepare Model Tool">
+        <span class="merged" id="index.3SgTtk" title="原文 :  Prepare Model Tool "><a href="userguide/tools/prepare/index.html"> Prepare Model Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/kubernetes/" title="Extract Domain Resource Tool">
+        <span class="merged" id="index.2BLXET" title="原文 :  Extract Domain Resource Tool "><a href="userguide/tools/kubernetes/index.html"> Extract Domain Resource Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/variable_injection/" title="Variable Injector Tool">
+        <span class="merged" id="index.tXLmL" title="原文 :  Variable Injector Tool "><a href="userguide/tools/variable_injection/index.html"> Variable Injector Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/model_help/" title="Model Help Tool">
+        <span class="merged" id="index.2wLldb" title="原文 :  Model Help Tool "><a href="userguide/tools/model_help/index.html"> Model Help Tool </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/target_env/" title="ターゲット環境">
+        <span class="merged" id="index.4cI98X" title="原文 :  Target environments "><a href="userguide/target_env/index.html">ターゲット環境</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/" title="ツール構成">
+      <span class="merged" id="index.YS8A0" title="原文 :  Tools configuration "><a href="userguide/tools-config/index.html">ツール構成</a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/model_filters/" title="モデル・フィルタ">
+        <span class="merged" id="index.2aNkWx" title="原文 :  Model filters "><a href="userguide/tools-config/model_filters/index.html">モデル・フィルタ</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/domain_def/" title="ドメイン・タイプ定義">
+        <span class="merged" id="index.49rTFz" title="原文 :  Domain type definitions "><a href="userguide/tools-config/domain_def/index.html">ドメイン・タイプ定義</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/custom_config/" title="カスタム構成">
+        <span class="merged" id="index.1hmK6r"  title="原文::  Custom configuration "><a href="userguide/tools-config/custom_config/index.html"> カスタム構成 </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/logging/" title="ロギング">
+        <span class="merged" id="index.2NCFIM"  title="原文::  Logging "><a href="userguide/tools-config/logging/index.html"> ロギング </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/tool_prop/" title="ツール・プロパティ・ファイル">
+        <span class="merged" id="index.3upG7z" title="原文 :  Tool property file "><a href="userguide/tools-config/tool_prop/index.html">ツール・プロパティ・ファイル</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/samples/" title="サンプル">
+      <span class="merged" id="index.3AAruf"  title="原文::  Samples "><a href="samples/index.html"> <b> </b>サンプル </a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/adminserver-model/" title="管理サーバーのカスタマイズ">
+        <span class="merged" id="index.3s7LJw" title="原文 :  Customizing the Administration Server "><a href="samples/adminserver-model/index.html">管理サーバーのカスタマイズ</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/cluster-model/" title="構成済クラスタのモデリング">
+        <span class="merged" id="index.2njPno" title="原文 :  Modeling a configured cluster "><a href="samples/cluster-model/index.html">構成済クラスタのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/wtc-model/" title="WTC構成のモデリング">
+        <span class="merged" id="index.1KCxbC" title="原文 :  Modeling a WTC configuration "><a href="samples/wtc-model/index.html">WTC構成のモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/jdbc-model/" title="JDBCデータ・ソースのモデリング">
+        <span class="merged" id="index.3JxQGt" title="原文 :  Modeling a JDBC data source "><a href="samples/jdbc-model/index.html">JDBCデータ・ソースのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/workmanager-model/" title="ワーク・マネージャのモデリング">
+        <span class="merged" id="index.1EiQGS" title="原文 :  Modeling a Work Manager "><a href="samples/workmanager-model/index.html">ワーク・マネージャのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/securityproviders-model/" title="セキュリティ・プロバイダのモデル化">
+        <span class="merged" id="index.4BKf4K" title="原文 :  Modeling security providers "><a href="samples/securityproviders-model/index.html">セキュリティ・プロバイダのモデル化</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/usersgroups-model/" title="WebLogicユーザー、グループおよびロールのモデル化">
+        <span class="merged" id="index.1U3qqY" title="原文 :  Modeling WebLogic users, groups, and roles "><a href="samples/usersgroups-model/index.html">WebLogicユーザー、グループおよびロールのモデル化</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/pwcredentialmap-model/" title="WebLogicユーザー・パスワード資格証明マッピングのモデリング">
+        <span class="merged" id="index.3rcDYG" title="原文 :  Modeling WebLogic user password credential mapping "><a href="samples/pwcredentialmap-model/index.html">WebLogicユーザー・パスワード資格証明マッピングのモデリング</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/odl-model/" title="Oracle Diagnostic Loggingの構成">
+        <span class="merged" id="index.3SaJ77" title="原文 :  Configuring Oracle Diagnostic Logging "><a href="samples/odl-model/index.html">Oracle Diagnostic Loggingの構成</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/ohs-model/" title="Oracle HTTP Serverの構成">
+        <span class="merged" id="index.2xacl1"  title="原文:  Configuring Oracle HTTP Server "><a href="samples/ohs-model/index.html"> Oracle HTTP Serverの構成 </a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/targetservers-model/" title="サーバー・グループのターゲット指定">
+        <span class="merged" id="index.4athEF" title="原文 :  Targeting server groups "><a href="samples/targetservers-model/index.html">サーバー・グループのターゲット指定</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/samples/wko-model/" title="WebLogic Kubernetes OperatorでのWDTの使用">
+        <span class="merged" id="index.13krp6" title="原文 :  Using WDT with WebLogic Kubernetes Operator "><a href="samples/wko-model/index.html">WebLogic Kubernetes OperatorでのWDTの使用</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/developer/" title="開発者ガイド">
+      <span class="merged" id="index.1A5WZR"  title="原文::  Developer Guide "><a href="developer/index.html"> <b> </b>開発者ガイド </a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/project-structure/" title="プロジェクト構造">
+        <span class="merged" id="index.38Hd6y" title="原文 :  Project structure "><a href="developer/project-structure/index.html">プロジェクト構造</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/feature-impl/" title="機能の実装">
+        <span class="merged" id="index.1B7apX" title="原文 :  Feature implementation "><a href="developer/feature-impl/index.html">機能の実装</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/alias-definitions/" title="別名定義">
+        <span class="merged" id="index.1dsWPU" title="原文 :  Alias definitions "><a href="developer/alias-definitions/index.html">別名定義</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/buildwdt/" title="WebLogic Deploy Toolのビルド">
+        <span class="merged" id="index.4QXhsO" title="原文 :  Build WebLogic Deploy Tool "><a href="developer/buildwdt/index.html">ビルドWebLogic Deploy Tool</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/releaseprocess/" title="WDTプロジェクト・リリース・プロセス">
+        <span class="merged" id="index.1GT4Yj" title="原文 :  WDT project release process "><a href="developer/releaseprocess/index.html">WDTプロジェクト・リリース・プロセス</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/contribute/" title="WDTへの貢献">
+        <span class="merged" id="index.1jkPOZ" title="原文 :  Contribute to WDT "><a href="developer/contribute/index.html">WDTへの貢献</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/release-notes/" title="リリース・ノート">
+      <span class="merged" id="index.1wSUtp"  title="原文::  Release Notes "><a href="release-notes/index.html"> <b> </b>リリース・ノート </a></span>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p><span class="merged" id="index.4behA5" title="原文 : Created with from Oracle"><a href="https://www.oracle.com">Oracle</a>から<i class="fas fa-heart"></i>で作成</span></p>
+<p><span class="merged" id="index.1OQYZy"  title="原文:: &nbsp">&nbsp</span></p>
+<p><span class="merged" id="index.msaKb" title="原文 :  GitHub repo"><a href="https://github.com/oracle/weblogic-deploy-tooling"><i class="fab fa-github"></i>GitHubリポジトリ</a></span></p>
+<p><span class="merged" id="index.rjNGa" title="原文 :  Public Slack #weblogic"><a href="https://weblogic-slack-inviter.herokuapp.com/"><i class="fab fa-slack"></i>パブリックSlack #weblogic</a></span></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+
+        
+
+<span class="merged" id="index.3UbqWe"  title="原文::  navigation "><span id="sidebar-toggle-span"> <a data-sidebar-toggle="" href="index.html#" id="sidebar-toggle"><i class="fas fa-bars"></i> navigation</a> </span></span>
+
+ 
+<div style="width:100%"> <div title="免責事項: ここに記載されているドキュメントは、お客様の利便性のために翻訳ソフトウエアにより機械的に翻訳(機械翻訳)したものです。オリジナルの英語版もあわせてご確認ください。" style="width:150px;padding-left:5px;padding-right:5px;border:#ff0000 solid 1px;border-color: gray;font-size: small;color:gray;margin: 0 auto 0 auto;text-align:center"><a href="https://docs.oracle.com/cd/E85181_01/mt_disclaimer.html">機械翻訳について</a></div> </div>
+<h2 id="weblogic-deploy-tooling"><span class="merged" id="index.1bmDwD"  title="原文:: WebLogic Deploy Tooling">WebLogic Deploy Tooling</span></h2>
+<p><span class="merged" id="index.3btbla" title="原文 : WebLogic Deploy Tooling (WDT) makes it easy to stand up WebLogic environments and perform domain lifecycle operations in a repeatable fashion based on a metadata model that can be treated as source and evolve as the project evolves.">WebLogic Deploy Tooling (WDT)を使用すると、WebLogic環境を簡単に立ち上げ、プロジェクトの進化に応じて処理および展開できるメタデータ・モデルに基づいて、繰り返し可能な方法でドメイン・ライフサイクル操作を実行できます。</span></p>
+<p><span class="merged" id="index.1Anf12.spl1" title="原文 : Many organizations use WebLogic Server, with or without other Oracle Fusion Middleware components, to run their enterprise applications.">多くの組織は、エンタープライズ・アプリケーションを実行するために、他のOracle Fusion Middlewareコンポーネントとの間でWebLogic Serverを使用します。</span> <span class="merged" id="index.1Anf12.spl2" title="原文 : And, as more and more of these organizations move toward Continuous Delivery of their applications, the importance of automated configuration application deployment grows.">さらに、これらの組織がアプリケーションの継続的デリバリに移行するにつれて、自動構成アプリケーションのデプロイメントの重要性が増します。</span> <span class="merged" id="index.1Anf12.spl3" title="原文 : This automation is often implemented using the WebLogic Scripting Tool (WLST) configuration and deployment scripting language, but this is challenging.">この自動化は、多くの場合、WebLogic Scripting Tool (WLST)構成およびデプロイメント・スクリプト言語を使用して実装されますが、これは困難です。</span> <span class="merged" id="index.1Anf12.spl4" title="原文 : Such scripts must be carefully updated as the project evolves or the project is deployed to different environments, such as test to production.">プロジェクトが展開したり、テストや本番など、プロジェクトが異なる環境にデプロイされるため、このようなスクリプトは慎重に更新する必要があります。</span> </p>
+<p><span class="merged" id="index.4VE235.spl1" title="原文 : WebLogic Deploy Tooling removes the need for most WebLogic Server deployments to rely on hand-coded WLST scripts for automating routine domain creation and application deployment tasks.">WebLogic Deploy Toolingでは、ほとんどのWebLogic Serverデプロイメントで、ルーチン・ドメイン作成タスクおよびアプリケーション・デプロイメント・タスクを自動化するために、手動コード化されたWLSTスクリプトに依存する必要がなくなります。</span> <span class="merged" id="index.4VE235.spl2" title="原文 : It lets you write a declarative, metadata model, describing the domain and applications (with their dependent resources), and provides single-purpose tools that perform domain lifecycle operations based on the content of the model.">宣言的なメタデータ・モデルを作成して、ドメインとアプリケーション(依存リソースを含む)を記述し、モデルのコンテンツに基づいてドメイン・ライフサイクル操作を実行するための単一目的のツールを提供します。</span> <span class="merged" id="index.4VE235.spl3" title="原文 : It also lets you specify simple mutations suitable for moving your model between different environments, such as between test and production.">また、テストと本番の間など、様々な環境間でモデルの移動に適した単純な突然変異を指定することもできます。</span> </p>
+<p><span class="merged" id="index.8Ssl1" title="原文 : WDT provides several single-purpose tools, all exposed as shell scripts (for both Windows and UNIX), that can:">WDTには、シェル・スクリプト(WindowsとUNIXの両方)として公開される複数の単一目的ツールがあり、次のことが可能です:</span></p>
+<ul>
+<li><span class="merged" id="index.1r5e8j" title="原文 : Create or update a domain.">ドメインを作成または更新します。</span></li>
+<li><span class="merged" id="index.2Oo0bB" title="原文 : Populate a domain with all the resources and applications specified in a model.">モデルで指定されたすべてのリソースおよびアプリケーションをドメインに配置します。</span></li>
+<li><span class="merged" id="index.X5Z20" title="原文 : Add resources and applications to an existing domain.">既存のドメインにリソースおよびアプリケーションを追加します。</span></li>
+<li><span class="merged" id="index.3j8Uvr" title="原文 : Introspect an existing domain and create a model file describing the domain and an archive file of the binaries deployed to the domain.">既存のドメインをイントロスペクトし、ドメインとドメインにデプロイされたバイナリのアーカイブ・ファイルを記述したモデル・ファイルを作成します。</span></li>
+<li><span class="merged" id="index.1h9XlH" title="原文 : Encrypt the passwords in a model (or its variable file).">モデル(またはその変数ファイル)のパスワードを暗号化します。</span></li>
+<li><span class="merged" id="index.1hV5Pk" title="原文 : Validate a model as well as provide model usage information.">モデルをバリデートし、モデル使用方法情報を提供します。</span></li>
+<li><span class="merged" id="index.KBSoT" title="原文 : Compare model files.">モデル・ファイルを比較します。</span></li>
+<li><span class="merged" id="index.2M8wUv" title="原文 : Prepare model files for deploying to the WebLogic Kubernetes Operator environment.">WebLogic Kubernetes Operator環境にデプロイするためのモデル・ファイルを準備します。</span></li>
+<li><span class="merged" id="index.12ghl9" title="原文 : Generate a domain resource YAML file for use with the WebLogic Kubernetes Operator.">WebLogic Kubernetes Operatorで使用するドメイン・リソースYAMLファイルを生成します。</span></li>
+<li><span class="merged" id="index.3QyjyJ" title="原文 : Tokenize a model with variables.">変数を使用してモデルをトークン化します。</span></li>
+<li><span class="merged" id="index.3i3Wdk" title="原文 : Provide information about the folders and attributes that are valid for sections and folders of a domain model.">ドメイン・モデルのセクションおよびフォルダに対して有効なフォルダおよび属性に関する情報を指定します。</span></li>
+</ul>
+<p><span class="merged" id="index.1BDLuy" title="原文 : For detailed information, see WDT Tools.">詳細については、<a href="userguide/tools/index.html">「WDTツール」</a>を参照してください。</span></p>
+<hr>
+<h3 id="current-production-release"><span class="merged" id="index.2TH3oE" title="原文 : Current production release">現在の本番リリース</span></h3>
+<p><span class="merged" id="index.3oQXdC" title="原文 : WebLogic Deploy Tooling version and release information can be found here.">WebLogic Deploy Toolingバージョンおよびリリース情報は、<a href="https://github.com/oracle/weblogic-deploy-tooling/releases">「こちら」</a>にあります。</span></p>
+<hr>
+<h3 id="recent-changes-and-known-issues"><span class="merged" id="index.2TIlmb" title="原文 : Recent changes and known issues">最近の変更と既知の問題</span></h3>
+<p><span class="merged" id="index.42wgku" title="原文 : See the Release Notes for known issues and workarounds.">既知の問題および回避方法については、<a href="release-notes/index.html">「リリース・ノート」</a>を参照してください。</span></p>
+<h3 id="about-this-documentation"><span class="merged" id="index.1tOVOr" title="原文 : About this documentation">このドキュメントについて</span></h3>
+<p><span class="merged" id="index.uhQjU" title="原文 : This documentation includes sections targeted to different audiences:">このドキュメントには、さまざまなオーディエンスを対象としたセクションが含まれています:</span></p>
+<ul>
+<li><span class="merged" id="index.3zIrr7" title="原文 : Concepts explains the underlying metadata models and archive files."><a href="concepts/index.html">「概念」</a>では、基礎となるメタデータ・モデルおよびアーカイブ・ファイルについて説明します。</span></li>
+<li><span class="merged" id="index.4WU2ld" title="原文 : The User Guide contains detailed usage information, including how to install and configure WebLogic Deploy Tooling, and how to use each tool."><a href="userguide/index.html">「ユーザー・ガイド」</a>には、WebLogic Deploy Toolingのインストールおよび構成方法、各ツールの使用方法など、詳細な使用状況情報が含まれています。</span></li>
+<li><span class="merged" id="index.28Gc0p" title="原文 : The Samples provide informative use case scenarios."><a href="samples/index.html">「サンプル」</a>は、有益なユースケース・シナリオを提供します。</span></li>
+<li><span class="merged" id="index.14KkUA.spl1" title="原文 : The Developer Guide provides details for people who want to understand how WDT is built, its features mapped and implemented."><a href="developer/index.html">「開発者ガイド」</a>には、WDTの構築方法、その機能のマップおよび実装方法を理解するユーザーの詳細が表示されます。</span> <span class="merged" id="index.14KkUA.spl2" title="原文 : Those who wish to contribute to the WebLogic Deploy Tooling code will find useful information here.">WebLogic Deploy Toolingコードに関与したい方は、<a href="developer/contribute/index.html">「こちら」</a>という有用な情報を検索します。</span> </li>
+</ul>
+<h3 id="related-projects"><span class="merged" id="index.3YVRkO" title="原文 : Related projects">関連プロジェクト</span></h3>
+<ul>
+<li><span class="merged" id="index.3xtBCI"  title="原文:: WebLogic Kubernetes Operator"><a href="https://oracle.github.io/weblogic-kubernetes-operator/">WebLogic Kubernetes Operator</a></span></li>
+<li><span class="merged" id="index.2cyFw0"  title="原文:: WebLogic Image Tool"><a href="https://oracle.github.io/weblogic-image-tool/">WebLogic Image Tool</a></span></li>
+<li><span class="merged" id="index.32L8J" title="原文 : WebLogic Kubernetes Toolkit UI"><a href="https://oracle.github.io/weblogic-toolkit-ui/">WebLogic Kubernetes Toolkit UI</a></span></li>
+<li><span class="merged" id="index.1I8jkj"  title="原文:: WebLogic Monitoring Exporter"><a href="https://github.com/oracle/weblogic-monitoring-exporter">WebLogic Monitoring Exporter</a></span></li>
+<li><span class="merged" id="index.44cVtS"  title="原文:: WebLogic Logging Exporter"><a href="https://github.com/oracle/weblogic-logging-exporter">WebLogic Logging Exporter</a></span></li>
+<li><span class="merged" id="index.17VJdR"  title="原文:: WebLogic Remote Console"><a href="https://oracle.github.io/weblogic-remote-console/">WebLogic Remote Console</a></span></li>
+</ul>
+	
+  
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+		
+			<a class="nav nav-next" href="concepts/index.html" style="margin-right: 0px;" ><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="js/clipboard.min.js?1666898261"></script>
+    <script src="js/perfect-scrollbar.min.js?1666898261"></script>
+    <script src="js/perfect-scrollbar.jquery.min.js?1666898261"></script>
+    <script src="js/jquery.sticky.js?1666898261"></script>
+    <script src="js/featherlight.min.js?1666898261"></script>
+    <script src="js/highlight.pack.js?1666898261"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/modernizr.custom-3.6.0.js?1666898261"></script>
+    <script src="js/learn.js?1666898261"></script>
+    <script src="js/hugo-learn.js?1666898261"></script>
+    
+        
+            <script src="mermaid/mermaid.js?1666898261"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
