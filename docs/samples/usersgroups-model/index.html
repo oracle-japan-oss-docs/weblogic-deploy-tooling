@@ -4,28 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.82.0" />
-    <meta content="Establishing users, groups, and global roles as part of WebLogic domain creation." name="description">
+    <meta content="Establishing users, groups, global roles, and policies as part of WebLogic domain creation." name="description">
 
 
     <link rel="icon" href="../../images/favicon.png" type="image/png">
 
-    <title>WebLogicユーザー、グループおよびロールのモデリング :: WebLogic Deploy Tooling</title>
+    <title>WebLogicユーザー、グループ、ロールおよびポリシーのモデル化 :: WebLogic Deploy Tooling</title>
 
     
-    <link href="../../css/nucleus.css?1712114363" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1712114363" rel="stylesheet">
-    <link href="../../css/hybrid.css?1712114363" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1712114363" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1712114363" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1712114363" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1712114363" rel="stylesheet">
-    <link href="../../css/theme.css?1712114363" rel="stylesheet">
-    <link href="../../css/tabs.css?1712114363" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1712114363" rel="stylesheet">
+    <link href="../../css/nucleus.css?1720668022" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1720668022" rel="stylesheet">
+    <link href="../../css/hybrid.css?1720668022" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1720668022" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1720668022" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1720668022" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1720668022" rel="stylesheet">
+    <link href="../../css/theme.css?1720668022" rel="stylesheet">
+    <link href="../../css/tabs.css?1720668022" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1720668022" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1712114363"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1720668022"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1712114363"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1712114363"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1720668022"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1720668022"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/oracle.github.io\/weblogic-deploy-tooling";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1712114363"></script>
+<script type="text/javascript" src="../../js/search.js?1720668022"></script>
 
     
   </div>
@@ -213,9 +213,80 @@
         <ul>
           
           
+            
+          
           
 
         
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li class="dd-item
+        
+        
+        
+        " data-nav-id="/weblogic-deploy-tooling/userguide/tools/shared/" title="共有機能">
+      <span class="merged" id="index.83PVp" title="原文 :  Shared functionality "><a href="../../userguide/tools/shared/index.html">共有機能</a></span>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/shared/online/" title="オンライン操作">
+        <span class="merged" id="index.1TZi54" title="原文 :  Online operations "><a href="../../userguide/tools/shared/online/index.html">オンライン操作</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/shared/ssh/" title="SSHのサポート">
+        <span class="merged" id="index.4H6W39" title="原文 :  SSH support "><a href="../../userguide/tools/shared/ssh/index.html">SSHのサポート</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
           
             
             
@@ -433,6 +504,24 @@
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/verify_ssh/" title="SSHツールの検証">
+        <span class="merged" id="index.1FN59Y" title="原文 :  Verify SSH Tool "><a href="../../userguide/tools/verify_ssh/index.html">SSHツールの検証</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
         
         </ul>
       
@@ -470,7 +559,7 @@
   
     
       <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/database/connect-db/" title="データベースへの接続">
-        <span class="merged" id="index.1qW2Af"  title="原文:  Connect to a Database "><a href="../../userguide/database/connect-db/index.html"> データベースへの接続 </a></span>
+        <span class="merged" id="index.3wqbXM"  title="原文:  Connect to a database "><a href="../../userguide/database/connect-db/index.html"> データベースへの接続 </a></span>
     </li>
      
   
@@ -585,6 +674,24 @@
     
       <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/tool_prop/" title="ツール・プロパティ・ファイル">
         <span class="merged" id="index.1a1qYY" title="原文 :  Tool property file "><a href="../../userguide/tools-config/tool_prop/index.html">ツール・プロパティ・ファイル</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools-config/variable_injectors/" title="変数インジェクタ">
+        <span class="merged" id="index.2Q1QsA" title="原文 :  Variable injectors "><a href="../../userguide/tools-config/variable_injectors/index.html">変数インジェクタ</a></span>
     </li>
      
   
@@ -785,8 +892,8 @@
  
   
     
-      <li class="dd-item active" data-nav-id="/weblogic-deploy-tooling/samples/usersgroups-model/" title="WebLogicユーザー、グループおよびロールのモデリング">
-        <span class="merged" id="index.1XkDex" title="原文 :  Modeling WebLogic users, groups, and roles "><a href="index.html">WebLogicユーザー、グループおよびロールのモデリング</a></span>
+      <li class="dd-item active" data-nav-id="/weblogic-deploy-tooling/samples/usersgroups-model/" title="WebLogicユーザー、グループ、ロールおよびポリシーのモデル化">
+        <span class="merged" id="index.2kVWL" title="原文 :  Modeling WebLogic users, groups, roles, and policies "><a href="index.html">WebLogicユーザー、グループ、ロールおよびポリシーのモデル化</a></span>
     </li>
      
   
@@ -996,6 +1103,24 @@
  
   
     
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/crd-schemas/" title="CRDスキーマの構築">
+        <span class="merged" id="index.2Wb6ld" title="原文 :  Building CRD schemas "><a href="../../developer/crd-schemas/index.html">CRDスキーマの構築</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
       <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/releaseprocess/" title="WDTプロジェクト・リリース・プロセス">
         <span class="merged" id="index.2cWjev" title="原文 :  WDT project release process "><a href="../../developer/releaseprocess/index.html">WDTプロジェクト・リリース・プロセス</a></span>
     </li>
@@ -1053,6 +1178,96 @@
           
 
         
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.1.1/" title="リリース4.1.1">
+        <span class="merged" id="index.3dNQZy" title="原文 :  Release 4.1.1 "><a href="../../release-notes/release-4.1.1/index.html"><b></b>リリース4.1.1</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.1.0/" title="リリース4.1.0">
+        <span class="merged" id="index.4CF8Ms" title="原文 :  Release 4.1.0 "><a href="../../release-notes/release-4.1.0/index.html"><b></b>リリース4.1.0</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.0.1/" title="リリース4.0.1">
+        <span class="merged" id="index.1QIz0l" title="原文 :  Release 4.0.1 "><a href="../../release-notes/release-4.0.1/index.html"><b></b>リリース4.0.1</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.0.0/" title="リリース4.0.0">
+        <span class="merged" id="index.21WHvr" title="原文 :  Release 4.0.0 "><a href="../../release-notes/release-4.0.0/index.html"><b></b>リリース4.0.0</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-3.5.4/" title="リリース3.5.4">
+        <span class="merged" id="index.OdEF8" title="原文 :  Release 3.5.4 "><a href="../../release-notes/release-3.5.4/index.html"><b></b>リリース3.5.4</a></span>
+    </li>
+     
+  
+ 
+
+            
           
             
             
@@ -1523,7 +1738,7 @@
                 
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span class="merged" id="index.403MDM" title="原文 :  &gt; Samples &gt; Modeling WebLogic users, groups, and roles "><span id="sidebar-toggle-span"><a data-sidebar-toggle="" href="index.html#" id="sidebar-toggle"><i class="fas fa-bars"></i></a></span> <span id="toc-menu"><i class="fas fa-list-alt"></i></span> <span class="links"><a href='../../index.html'></a> > <a href='../index.html'>サンプル</a> > WebLogicユーザー、グループおよびロールのモデリング</span></span>
+                    <span class="merged" id="index.B9X1Y" title="原文 :  &gt; Samples &gt; Modeling WebLogic users, groups, roles, and policies "><span id="sidebar-toggle-span"><a data-sidebar-toggle="" href="index.html#" id="sidebar-toggle"><i class="fas fa-bars"></i></a></span> <span id="toc-menu"><i class="fas fa-list-alt"></i></span> <span class="links"><a href='../../index.html'></a> > <a href='../index.html'>サンプル</a> > WebLogicユーザー、グループ、ロールおよびポリシーのモデル化</span></span>
                 </div>
                 
                     <div class="progress">
@@ -1553,36 +1768,17 @@
             <div style="width:100%"> <div title="免責事項: ここに記載されているドキュメントは、お客様の利便性のために翻訳ソフトウエアにより機械的に翻訳(機械翻訳)したものです。オリジナルの英語版もあわせてご確認ください。" style="width:150px;padding-left:5px;padding-right:5px;border:#ff0000 solid 1px;border-color: gray;font-size: small;color:gray;margin: 0 auto 0 auto;text-align:center"><a href="https://docs.oracle.com/cd/E85181_01/mt_disclaimer.html">機械翻訳について</a></div> </div>
 <h1>
               
-              <span class="merged" id="index.2HJU6J" title="原文 : Modeling WebLogic users, groups, and roles">WebLogicユーザー、グループおよびロールのモデリング</span>
+              <span class="merged" id="index.zWuRK" title="原文 : Modeling WebLogic users, groups, roles, and policies">WebLogicユーザー、グループ、ロールおよびポリシーのモデル化</span>
             </h1>
           
 
         
 
 
-<p><span class="merged" id="index.1fguTx.spl1" title="原文 : WebLogic Server has the ability to establish a set of users, groups, and global roles as part of the WebLogic domain creation.">WebLogic Serverには、WebLogicドメインの作成の一部としてユーザー、グループおよびグローバル・ロールのセットを確立する機能があります。</span> <span class="merged" id="index.1fguTx.spl2" title="原文 : The WebLogic global roles become part of the WebLogic role mapper (for example, XACMLRoleMapper) and are specified under domainInfo in the WLSRoles section.">WebLogicグローバル・ロールは、WebLogicロール・マッパー(たとえば、<code>XACMLRoleMapper</code>)の一部になり、<code>WLSRoles</code>セクションの<code>domainInfo</code>の下に指定されます。</span> <span class="merged" id="index.1fguTx.spl3" title="原文 : The users and groups become part of the Embedded LDAP server (for example, DefaultAuthenticator) and are specified under topology in the Security section.">ユーザーおよびグループは、組込みLDAPサーバー(<code>DefaultAuthenticator</code>など)の一部になり、<code>Security</code>セクションの<code>topology</code>の下に指定されます。</span> </p>
-<h4 id="weblogic-global-roles"><span class="merged" id="index.1kvKf0" title="原文 : WebLogic global roles">WebLogicグローバル・ロール</span></h4>
-<p><span class="merged" id="index.2z6CQB.spl1" title="原文 : The model allows for the definition of WebLogic roles that can augment the well known WebLogic global roles (for example, Admin, Deployer, Monitor, …) in addition to defining new roles.">このモデルでは、新しいロールの定義に加えて、既知のWebLogicグローバル・ロール(たとえば、<code>Admin</code>, <code>Deployer</code>, <code>Monitor</code>、…))を拡張できるWebLogicロールを定義できます。</span> <span class="merged" id="index.2z6CQB.spl2" title="原文 : When updating the well known WebLogic roles, an UpdateMode can be specified as { append | prepend | replace } with the default being replace when not specified.">よく知られているWebLogicロールを更新する場合、<code>UpdateMode</code>を<code>{ append | prepend | replace }</code>として指定でき、デフォルトは<code>replace</code>です(指定されていない場合)。</span> <span class="merged" id="index.2z6CQB.spl3" title="原文 : Also, when updating the well known roles, the specified Expression will be a logical OR with the default expression.">また、既知のロールを更新する場合、指定された<code>Expression</code>は、デフォルトの式を持つ論理<code>OR</code>になります。</span> <span class="merged" id="index.2z6CQB.spl4" title="原文 : The Expression value for the role is the same as when using the WebLogic RoleEditorMBean for a WebLogic security role mapping provider.">ロールの<code>Expression</code>値は、WebLogicセキュリティ・ロール・マッピング・プロバイダにWebLogic <code>RoleEditorMBean</code>を使用する場合と同じです。</span> </p>
-<p><span class="merged" id="index.1Q2ECh" title="原文 : For example, the WLSRoles section below updates the well known Admin, Deployer and Monitor roles while adding a new global role with Tester as the role name:">たとえば、次の<code>WLSRoles</code>セクションは、既知の<code>Admin</code>、<code>Deployer</code>および<code>Monitor</code>ロールを更新し、<code>Tester</code>をロール名として新しいグローバル・ロールを追加します:</span></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
-  <span style="color:#f92672">WLSRoles</span>:
-    <span style="color:#f92672">Admin</span>:
-      <span style="color:#f92672">UpdateMode</span>: <span style="color:#ae81ff">append</span>
-      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.IDCSAppRoleName(AppAdmin,@@PROP:AppName@@)&#34;</span>
-    <span style="color:#f92672">Deployer</span>:
-      <span style="color:#f92672">UpdateMode</span>: <span style="color:#ae81ff">replace</span>
-      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.AdministrativeGroup(@@PROP:Deployers@@)&#34;</span>
-    <span style="color:#f92672">Monitor</span>:
-      <span style="color:#f92672">UpdateMode</span>: <span style="color:#ae81ff">prepend</span>
-      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.AdministrativeGroup(AppMonitors)&#34;</span>
-    <span style="color:#f92672">Tester</span>:
-      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.IDCSAppRoleName(AppTester,@@PROP:AppName@@)&#34;</span>
-</code></pre></div><p><span class="merged" id="index.c04B9" title="原文 : The Admin role will have the expression appended to the default expression, the Deployer role expression will replace the default, the Monitor role expression will be prepended to the default expression and Tester will be a new role with the specified expression."><code>Admin</code>ロールには式がデフォルト式に追加され、<code>Deployer</code>ロール式がデフォルトに置換され、<code>Monitor</code>ロール式がデフォルト式の前に付加され、<code>Tester</code>は指定された式の新しいロールになります。</span></p>
-<p><span class="merged" id="index.4Y9oeg" title="原文 : In addition, the Expression value can use the variable placeholder syntax specified when running the Create Tool as shown in the above example.">また、<code>Expression</code>値では、前述の例に示すように、<a href="../../userguide/tools/create/index.html">「ツールの作成」</a>の実行時に指定された変数プレースホルダー構文を使用できます。</span></p>
+<p><span class="merged" id="index.3sc3T9.spl1" title="原文 : WebLogic Server has the ability to establish a set of users, groups, global roles, and policies as part of the WebLogic domain creation.">WebLogic Serverには、WebLogicドメインの作成の一環として、ユーザー、グループ、グローバル・ロールおよびポリシーのセットを確立する機能があります。</span> <span class="merged" id="index.3sc3T9.spl2" title="原文 : The users and groups become part of the Embedded LDAP server (for example, DefaultAuthenticator) and are specified under topology in the Security section.">ユーザーおよびグループは、組込みLDAPサーバー(<code>DefaultAuthenticator</code>など)の一部になり、<code>Security</code>セクションの<code>topology</code>の下に指定されます。</span> <span class="merged" id="index.3sc3T9.spl3" title="原文 : The WebLogic global roles become part of the WebLogic role mapper (for example, XACMLRoleMapper) and are specified under domainInfo in the WLSRoles section.">WebLogicグローバル・ロールは、WebLogicロール・マッパー(たとえば、<code>XACMLRoleMapper</code>)の一部になり、<code>WLSRoles</code>セクションの<code>domainInfo</code>の下に指定されます。</span> <span class="merged" id="index.3sc3T9.spl4" title="原文 : The WebLogic policies become part of the WebLogic authorizer (that is, XACMLAuthorizer).">WebLogicポリシーは、WebLogic認可プロバイダの一部(つまり、<code>XACMLAuthorizer</code>)になります。</span> </p>
 <h4 id="weblogic-users-and-groups"><span class="merged" id="index.2PFXEL" title="原文 : WebLogic users and groups">WebLogicユーザーおよびグループ</span></h4>
-<p><span class="merged" id="index.5Ko6c.spl1" title="原文 : The model allows for the definition of a set of users and groups that will be loaded into the WebLogic Embedded LDAP Server (for example, DefaultAuthenticator).">このモデルでは、WebLogic組込みLDAPサーバーにロードされる一連のユーザーおよびグループ(たとえば、<code>DefaultAuthenticator</code>)を定義できます。</span> <span class="merged" id="index.5Ko6c.spl2" title="原文 : New groups can be specified and users can be added as members of the new groups or existing groups such as the Administrators group which is defaulted to be in the WebLogic Admin global role.">新しいグループを指定でき、ユーザーは新しいグループのメンバーまたはWebLogic <code>Admin</code>グローバル・ロールにデフォルト設定される<code>Administrators</code>グループなどの既存のグループのメンバーとして追加できます。</span> <span class="merged" id="index.5Ko6c.spl3" title="原文 : Please see Known Limitations below for additional information on users and groups.">ユーザーおよびグループの詳細は、次の既知の制限を参照してください。</span> </p>
-<p><span class="merged" id="index.2Zwa1M.spl1" title="原文 : The user password can be specified with a placeholder or encrypted with the Encrypt Tool.">ユーザー・パスワードは、プレースホルダーで指定するか、<a href="../../userguide/tools/encrypt/index.html">「暗号化ツール」</a>で暗号化できます。</span> <span class="merged" id="index.2Zwa1M.spl2" title="原文 : An example Security section that adds an additional group AppMonitors, adds two new users and places the users into groups is as follows:">追加のグループ<code>AppMonitors</code>を追加する<code>Security</code>セクションの例は、2つの新しいユーザーを追加し、ユーザーをグループに配置します:</span> </p>
-<p><span class="merged" id="index.3RPA1r.spl1" title="原文 : You can add user attributes that are defined for the DefaultAuthenticator.">DefaultAuthenticatorに定義されたユーザー属性を追加できます。</span> <span class="merged" id="index.3RPA1r.spl2" title="原文 : This is a limited set of attributes that go under a separate folder UserAttribute in the model under the User section.">これは、<code>User</code>セクションの下のモデル内の個別のフォルダ<code>UserAttribute</code>の下に配置される限られた属性セットです。</span> </p>
+<p><span class="merged" id="index.1c4g8j.spl1" title="原文 : The model allows for the definition of a set of users and groups that will be loaded into the WebLogic Embedded LDAP Server (for example, DefaultAuthenticator).">このモデルでは、WebLogic組込みLDAPサーバーにロードされる一連のユーザーおよびグループ(たとえば、<code>DefaultAuthenticator</code>)を定義できます。</span> <span class="merged" id="index.1c4g8j.spl2" title="原文 : New groups can be specified and users can be added as members of the new groups or existing groups, such as the Administrators group, which is defaulted to be in the WebLogic Admin global role.">新しいグループを指定でき、ユーザーは、WebLogic <code>Admin</code>グローバル・ロールにデフォルト設定される<code>Administrators</code>グループなどの新規グループまたは既存のグループのメンバーとして追加できます。</span> <span class="merged" id="index.1c4g8j.spl3" title="原文 : For additional information on users and groups, see Known Limitations.">ユーザーおよびグループの詳細は、<a href="index.html#known-limitations">「既知の制限事項」</a>を参照してください。</span> </p>
+<p><span class="merged" id="index.4qlOM.spl1" title="原文 : You can specify the user password with a placeholder or encrypt it with the Encrypt Tool.">プレースホルダーを使用してユーザー・パスワードを指定することも、<a href="../../userguide/tools/encrypt/index.html">「暗号化ツール」</a>を使用して暗号化することもできます。</span> <span class="merged" id="index.4qlOM.spl2" title="原文 : An example Security section that adds an additional group AppMonitors, adds two new users and places the users into groups is shown in the example.">追加グループ<code>AppMonitors</code>を追加する<code>Security</code>セクションの例を、2人の新規ユーザーを追加し、ユーザーをグループに配置します。</span> <span class="merged" id="index.4qlOM.spl3" title="原文 : You can add user attributes that are defined for the DefaultAuthenticator.">DefaultAuthenticatorに定義されたユーザー属性を追加できます。</span> <span class="merged" id="index.4qlOM.spl4" title="原文 : This is a limited set of attributes that go under a separate folder UserAttribute in the model under the User section.">これは、<code>User</code>セクションの下のモデル内の個別のフォルダ<code>UserAttribute</code>の下に配置される限られた属性セットです。</span> </p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">topology</span>:
   <span style="color:#f92672">Security</span>:
     <span style="color:#f92672">Group</span>:
@@ -1597,11 +1793,39 @@
          <span style="color:#f92672">GroupMemberOf</span>: [ <span style="color:#ae81ff">AppMonitors ]</span>
          <span style="color:#f92672">UserAttribute</span>:
              <span style="color:#f92672">mail</span>: <span style="color:#ae81ff">joe@mycompany.com</span>
-</code></pre></div><h4 id="known-limitations"><span class="merged" id="index.3NPBzD"  title="原文:: Known limitations">既知の制限事項</span></h4>
+</code></pre></div><h4 id="weblogic-global-roles"><span class="merged" id="index.1kvKf0" title="原文 : WebLogic global roles">WebLogicグローバル・ロール</span></h4>
+<p><span class="merged" id="index.1BftJ8.spl1" title="原文 : The model allows for the definition of WebLogic roles that can augment the well-known WebLogic global roles (for example, Admin, Deployer, Monitor, and such) in addition to defining new roles.">モデルでは、新しいロールの定義に加えて、既知のWebLogicグローバル・ロール(<code>Admin</code>, <code>Deployer</code>, <code>Monitor</code>など)を拡張できるWebLogicロールを定義できます。</span> <span class="merged" id="index.1BftJ8.spl2" title="原文 : When updating the well-known WebLogic roles, you can specify an UpdateMode as { append | prepend | replace } with the default being replace when not specified.">既知のWebLogicロールを更新する場合、<code>UpdateMode</code>を<code>{ append | prepend | replace }</code>として指定でき、指定しない場合、デフォルトは<code>replace</code>です。</span> <span class="merged" id="index.1BftJ8.spl3" title="原文 : Also, when updating the well-known roles, the specified Expression will be a logical OR with the default expression.">また、既知のロールを更新する場合、指定された<code>Expression</code>は、デフォルトの式を持つ論理<code>OR</code>になります。</span> <span class="merged" id="index.1BftJ8.spl4" title="原文 : The Expression value for the role is the same as when using the WebLogic RoleEditorMBean for a WebLogic security role mapping provider.">ロールの<code>Expression</code>値は、WebLogicセキュリティ・ロール・マッピング・プロバイダにWebLogic <code>RoleEditorMBean</code>を使用する場合と同じです。</span> </p>
+<p><span class="merged" id="index.2VMBro" title="原文 : For example, the WLSRoles section below updates the well-known Admin, Deployer and Monitor roles while adding a new global role with Tester as the role name:">たとえば、次の<code>WLSRoles</code>セクションは、既知の<code>Admin</code>、<code>Deployer</code>および<code>Monitor</code>ロールを更新し、ロール名として<code>Tester</code>を持つ新しいグローバル・ロールを追加します:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+  <span style="color:#f92672">WLSRoles</span>:
+    <span style="color:#f92672">Admin</span>:
+      <span style="color:#f92672">UpdateMode</span>: <span style="color:#ae81ff">append</span>
+      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.IDCSAppRoleName(AppAdmin,@@PROP:AppName@@)&#34;</span>
+    <span style="color:#f92672">Deployer</span>:
+      <span style="color:#f92672">UpdateMode</span>: <span style="color:#ae81ff">replace</span>
+      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.AdministrativeGroup(@@PROP:Deployers@@)&#34;</span>
+    <span style="color:#f92672">Monitor</span>:
+      <span style="color:#f92672">UpdateMode</span>: <span style="color:#ae81ff">prepend</span>
+      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.AdministrativeGroup(AppMonitors)&#34;</span>
+    <span style="color:#f92672">Tester</span>:
+      <span style="color:#f92672">Expression</span>: <span style="color:#e6db74">&#34;?weblogic.entitlement.rules.IDCSAppRoleName(AppTester,@@PROP:AppName@@)&#34;</span>
+</code></pre></div><p><span class="merged" id="index.c04B9" title="原文 : The Admin role will have the expression appended to the default expression, the Deployer role expression will replace the default, the Monitor role expression will be prepended to the default expression and Tester will be a new role with the specified expression."><code>Admin</code>ロールには式がデフォルト式に追加され、<code>Deployer</code>ロール式がデフォルトに置換され、<code>Monitor</code>ロール式がデフォルト式の前に付加され、<code>Tester</code>は指定された式の新しいロールになります。</span></p>
+<p><span class="merged" id="index.13X4kc" title="原文 : In addition, the Expression value can use the variable placeholder syntax specified when running the Create Tool as shown in the previous example.">また、<code>Expression</code>値では、前述の例に示すように、<a href="../../userguide/tools/create/index.html">「ツールの作成」</a>の実行時に指定された変数のプレースホルダー構文を使用できます。</span></p>
+<h4 id="weblogic-policies"><span class="merged" id="index.3G3Ve" title="原文 : WebLogic policies">WebLogicポリシー</span></h4>
+<p><span class="merged" id="index.4CIVY5.spl1" title="原文 : The model allows for the definition of additional authorization policies on WebLogic resources.">モデルでは、WebLogicリソースに対する追加の認可ポリシーを定義できます。</span> <span class="merged" id="index.4CIVY5.spl2" title="原文 : Note that WDT does not currently support editing the default authorization policies shipped out of the box.">現在、WDTでは、即時利用可能なデフォルトの認可ポリシーの編集はサポートされていません。</span> </p>
+<p><span class="merged" id="index.47dbCu.spl1" title="原文 : To define a new policy for a particular resource, you must make up a logical name for the policy and provide the ResourceID and Policy expression fields as shown in the example.">特定のリソースに対して新しいポリシーを定義するには、例に示すように、ポリシーの論理名を構成し、<code>ResourceID</code>および<code>Policy</code>式フィールドを指定する必要があります。</span> <span class="merged" id="index.47dbCu.spl2" title="原文 : Note that this name is important should you want to use multiple model files were one file needs to override the policy defined in an earlier model.">複数のモデル・ファイルを使用する場合は、1つのファイルで以前のモデルで定義されたポリシーをオーバーライドする必要があるため、この名前は重要です。</span> </p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">domainInfo</span>:
+  <span style="color:#f92672">WLSPolicies</span>:
+    <span style="color:#f92672">MyQueueSendPolicy</span>:
+      <span style="color:#f92672">ResourceID</span>: <span style="color:#e6db74">&#39;type=&lt;jms&gt;, application=MyJmsModule, destinationType=queue, resource=MyQueue, action=send&#39;</span>
+      <span style="color:#f92672">Policy</span>: <span style="color:#e6db74">&#39;Grp(Administrators)|Grp(Operators)|Grp(Monitors)&#39;</span>
+</code></pre></div><p><span class="merged" id="index.2TdWze.spl1" title="原文 : To determine the correct ResourceID and Policy model values for a policy, try using the WebLogic Remote Console and its Security Data Tree to create the desired policy and then use the Advanced tab to view the Resource Id and Policy field values.">ポリシーの正しい<code>ResourceID</code>および<code>Policy</code>モデル値を決定するには、<a href="https://oracle.github.io/weblogic-remote-console/">WebLogic Remote Console</a>とそのセキュリティ・データ・ツリーを使用して目的のポリシーを作成し、「詳細」タブを使用して<code>Resource Id</code>および<code>Policy</code>フィールドの値を表示します。</span> <span class="merged" id="index.2TdWze.spl2" title="原文 : The value of these fields in the WebLogic Remote Console can be copied directly into the ResourceID and Policy attributes in the model.">WebLogic Remote Consoleのこれらのフィールドの値は、モデルの<code>ResourceID</code>属性および<code>Policy</code>属性に直接コピーできます。</span> <span class="merged" id="index.2TdWze.spl3" title="原文 : Don’t forget that the values of these fields may need to be enclosed in quotes in the YAML model.">これらのフィールドの値は、YAMLモデルで引用符で囲む必要があることを忘れないでください。</span> </p>
+<h4 id="known-limitations"><span class="merged" id="index.3NPBzD"  title="原文:: Known limitations">既知の制限事項</span></h4>
 <ul>
 <li><span class="merged" id="index.RGMCv" title="原文 : The processing of users, groups, and roles will only take place when using the Create Domain Tool.">ユーザー、グループおよびロールの処理は、<a href="../../userguide/tools/create/index.html">Create Domain Tool</a>の使用時にのみ行われます。</span></li>
 <li><span class="merged" id="index.hPbT9" title="原文 : WebLogic global roles are only supported with WebLogic Server version 12.2.1 or greater.">WebLogicグローバル・ロールは、WebLogic Serverバージョン12.2.1以上でのみサポートされます。</span></li>
 <li><span class="merged" id="index.4StD4e" title="原文 : WebLogic global roles are only updated for the WebLogic security XACML role mapping provider (for example, XACMLRoleMapper).">WebLogicグローバル・ロールは、WebLogicセキュリティXACMLロール・マッピング・プロバイダ(<code>XACMLRoleMapper</code>など)に対してのみ更新されます。</span></li>
+<li><span class="merged" id="index.16F87n" title="原文 : Currently, WDT does not support modifying the default WebLogic authorization policies.">現在、WDTではデフォルトのWebLogic認可ポリシーの変更はサポートされていません。</span></li>
 </ul>
 
 
@@ -1727,6 +1951,8 @@
 
                     
                     
+                        
+                    
                     
 
                     
@@ -1742,6 +1968,38 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
             
         
@@ -1922,102 +2180,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -2069,42 +2231,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -2117,189 +2243,6 @@
                     
                     
 
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
             
         
@@ -2428,6 +2371,465 @@
                     
                     
 
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -2835,19 +3237,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1712114363"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1712114363"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1712114363"></script>
-    <script src="../../js/jquery.sticky.js?1712114363"></script>
-    <script src="../../js/featherlight.min.js?1712114363"></script>
-    <script src="../../js/highlight.pack.js?1712114363"></script>
+    <script src="../../js/clipboard.min.js?1720668022"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1720668022"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1720668022"></script>
+    <script src="../../js/jquery.sticky.js?1720668022"></script>
+    <script src="../../js/featherlight.min.js?1720668022"></script>
+    <script src="../../js/highlight.pack.js?1720668022"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1712114363"></script>
-    <script src="../../js/learn.js?1712114363"></script>
-    <script src="../../js/hugo-learn.js?1712114363"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1720668022"></script>
+    <script src="../../js/learn.js?1720668022"></script>
+    <script src="../../js/hugo-learn.js?1720668022"></script>
     
         
-            <script src="../../mermaid/mermaid.js?1712114363"></script>
+            <script src="../../mermaid/mermaid.js?1720668022"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
