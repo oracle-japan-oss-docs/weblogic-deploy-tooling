@@ -12,20 +12,20 @@
     <title>WDTプロジェクト・リリース・プロセス :: WebLogic Deploy Tooling</title>
 
     
-    <link href="../../css/nucleus.css?1720668022" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1720668022" rel="stylesheet">
-    <link href="../../css/hybrid.css?1720668022" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1720668022" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1720668022" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1720668022" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1720668022" rel="stylesheet">
-    <link href="../../css/theme.css?1720668022" rel="stylesheet">
-    <link href="../../css/tabs.css?1720668022" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1720668022" rel="stylesheet">
+    <link href="../../css/nucleus.css?1727580104" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1727580104" rel="stylesheet">
+    <link href="../../css/hybrid.css?1727580104" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1727580104" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1727580104" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1727580104" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1727580104" rel="stylesheet">
+    <link href="../../css/theme.css?1727580104" rel="stylesheet">
+    <link href="../../css/tabs.css?1727580104" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1727580104" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1720668022"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1727580104"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1720668022"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1720668022"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1727580104"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1727580104"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/oracle.github.io\/weblogic-deploy-tooling";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1720668022"></script>
+<script type="text/javascript" src="../../js/search.js?1727580104"></script>
 
     
   </div>
@@ -513,8 +513,8 @@
  
   
     
-      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/verify_ssh/" title="SSHツールの検証">
-        <span class="merged" id="index.1FN59Y" title="原文 :  Verify SSH Tool "><a href="../../userguide/tools/verify_ssh/index.html">SSHツールの検証</a></span>
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/verify_ssh/" title="Verify SSH Tool">
+        <span class="merged" id="index.1FN59Y" title="原文 :  Verify SSH Tool "><a href="../../userguide/tools/verify_ssh/index.html">Verify SSH Tool</a></span>
     </li>
      
   
@@ -1103,8 +1103,8 @@
  
   
     
-      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/crd-schemas/" title="CRDスキーマの構築">
-        <span class="merged" id="index.2sT47g" title="原文 :  Building CRD schemas "><a href="../crd-schemas/index.html">CRDスキーマの構築</a></span>
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/crd-schemas/" title="CRDスキーマのビルド">
+        <span class="merged" id="index.2sT47g" title="原文 :  Building CRD schemas "><a href="../crd-schemas/index.html">CRDスキーマのビルド</a></span>
     </li>
      
   
@@ -1178,6 +1178,24 @@
           
 
         
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.2.0/" title="リリース4.2.0">
+        <span class="merged" id="index.2yZddc" title="原文 :  Release 4.2.0 "><a href="../../release-notes/release-4.2.0/index.html"><b></b>リリース4.2.0</a></span>
+    </li>
+     
+  
+ 
+
+            
           
             
             
@@ -1816,6 +1834,9 @@
 </ul>
 </li>
 <li>
+<p><span class="merged" id="index.3tS8gW" title="原文 : When releasing as part of the Oracle infrastructure, you must make sure to wait until all Jenkins build activity associated with the main branch is complete prior to starting the release process.">Oracleインフラストラクチャの一部としてリリースする場合は、リリース・プロセスを開始する前に、<code>main</code>ブランチに関連付けられているすべてのJenkinsビルド・アクティビティが完了するまで待機する必要があります。</span></p>
+</li>
+<li>
 <p><span class="merged" id="index.MXMBK" title="原文 : In the weblogic-deploy-tooling project directory, run the mvn -B release:prepare release:perform command."><code>weblogic-deploy-tooling</code>プロジェクト・ディレクトリで、<code>mvn -B release:prepare release:perform</code>コマンドを実行します。</span></p>
 <ul>
 <li><span class="merged" id="index.3voy2u.spl1" title="原文 : If the next development version is changing the major or minor version, override the default developmentVersion property on the command line.">次の開発バージョンでメジャー・バージョンまたはマイナー・バージョンを変更する場合は、コマンドラインでデフォルトの<code>developmentVersion</code>プロパティをオーバーライドします。</span> <span class="merged" id="index.3voy2u.spl2" title="原文 : For example, mvn -B -DdevelopmentVersion=3.2.0-SNAPSHOT release:prepare release:perform.">たとえば、<br><code>mvn -B -DdevelopmentVersion=3.2.0-SNAPSHOT release:prepare release:perform</code>.</span> </li>
@@ -1832,6 +1853,7 @@
 <h3 id="github-release-process"><span class="merged" id="index.2HO3tL" title="原文 : GitHub release process">GitHubリリース・プロセス</span></h3>
 <p><span class="merged" id="index.I5goh.spl1" title="原文 : Note that this process relies on the WDT installers being in your local Maven repository.">このプロセスは、ローカルMavenリポジトリにあるWDTインストーラに依存します。</span> <span class="merged" id="index.I5goh.spl2" title="原文 : As such, it is critical for the same user to run these steps on the same machine as the steps from the previous section!">そのため、同じユーザーが前のセクションのステップと同じマシンでこれらのステップを実行することが重要です。</span> </p>
 <ol>
+<li><span class="merged" id="index.2Ue1ye" title="原文 : Prior to starting the GitHub release, you must wait until all Jenkins activity triggered by the release is complete.">GitHubリリースを開始する前に、リリースによってトリガーされたすべてのJenkinsアクティビティが完了するまで待機する必要があります。</span></li>
 <li><span class="merged" id="index.3Iptsq" title="原文 : Save the release notes in the file &lt;wdt-project-directory&gt;/target/ReleaseNotes.md.">リリース・ノートを<code>&lt;wdt-project-directory>/target/ReleaseNotes.md</code>ファイルに保存します。</span></li>
 <li><span class="merged" id="index.2FWTet" title="原文 : Run the command mvn -f github-release.xml -DreleaseVersion=&lt;release version number&gt; verify to create the draft GitHub Release.">コマンド<code>mvn -f github-release.xml -DreleaseVersion=&lt;release version number> verify</code>を実行して、ドラフトGitHubリリースを作成します。</span></li>
 <li><span class="merged" id="index.OdTkX" title="原文 : Log into GitHub, go to the Releases page, review/edit the draft release, and then publish the release."><a href="https://github.com/oracle/weblogic-deploy-tooling">GitHub</a>にログインし、リリース・ページに移動し、ドラフト・リリースをレビュー/編集してから、リリースを公開します。</span></li>
@@ -3224,6 +3246,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -3246,19 +3284,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1720668022"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1720668022"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1720668022"></script>
-    <script src="../../js/jquery.sticky.js?1720668022"></script>
-    <script src="../../js/featherlight.min.js?1720668022"></script>
-    <script src="../../js/highlight.pack.js?1720668022"></script>
+    <script src="../../js/clipboard.min.js?1727580104"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1727580104"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1727580104"></script>
+    <script src="../../js/jquery.sticky.js?1727580104"></script>
+    <script src="../../js/featherlight.min.js?1727580104"></script>
+    <script src="../../js/highlight.pack.js?1727580104"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1720668022"></script>
-    <script src="../../js/learn.js?1720668022"></script>
-    <script src="../../js/hugo-learn.js?1720668022"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1727580104"></script>
+    <script src="../../js/learn.js?1727580104"></script>
+    <script src="../../js/hugo-learn.js?1727580104"></script>
     
         
-            <script src="../../mermaid/mermaid.js?1720668022"></script>
+            <script src="../../mermaid/mermaid.js?1727580104"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

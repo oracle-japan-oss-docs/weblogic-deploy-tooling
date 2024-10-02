@@ -12,20 +12,20 @@
     <title>SSHサポート :: WebLogic Deploy Tooling</title>
 
     
-    <link href="../../../../css/nucleus.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/fontawesome-all.min.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/hybrid.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/auto-complete.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/atom-one-dark-reasonable.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/theme.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/tabs.css?1720668022" rel="stylesheet">
-    <link href="../../../../css/hugo-theme.css?1720668022" rel="stylesheet">
+    <link href="../../../../css/nucleus.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/fontawesome-all.min.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/hybrid.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/atom-one-dark-reasonable.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/theme.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/tabs.css?1727580105" rel="stylesheet">
+    <link href="../../../../css/hugo-theme.css?1727580105" rel="stylesheet">
     
     
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1720668022"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1727580105"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../../js/lunr.min.js?1720668022"></script>
-<script type="text/javascript" src="../../../../js/auto-complete.js?1720668022"></script>
+<script type="text/javascript" src="../../../../js/lunr.min.js?1727580105"></script>
+<script type="text/javascript" src="../../../../js/auto-complete.js?1727580105"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/oracle.github.io\/weblogic-deploy-tooling";
     
 </script>
-<script type="text/javascript" src="../../../../js/search.js?1720668022"></script>
+<script type="text/javascript" src="../../../../js/search.js?1727580105"></script>
 
     
   </div>
@@ -513,8 +513,8 @@
  
   
     
-      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/verify_ssh/" title="SSHツールの検証">
-        <span class="merged" id="index.2u84kD" title="原文 :  Verify SSH Tool "><a href="../../verify_ssh/index.html">SSHツールの検証</a></span>
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/userguide/tools/verify_ssh/" title="Verify SSH Tool">
+        <span class="merged" id="index.2u84kD" title="原文 :  Verify SSH Tool "><a href="../../verify_ssh/index.html">Verify SSH Tool</a></span>
     </li>
      
   
@@ -1103,8 +1103,8 @@
  
   
     
-      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/crd-schemas/" title="CRDスキーマの構築">
-        <span class="merged" id="index.dYhGg" title="原文 :  Building CRD schemas "><a href="../../../../developer/crd-schemas/index.html">CRDスキーマの構築</a></span>
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/developer/crd-schemas/" title="CRDスキーマのビルド">
+        <span class="merged" id="index.dYhGg" title="原文 :  Building CRD schemas "><a href="../../../../developer/crd-schemas/index.html">CRDスキーマのビルド</a></span>
     </li>
      
   
@@ -1178,6 +1178,24 @@
           
 
         
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.2.0/" title="リリース4.2.0">
+        <span class="merged" id="index.1FnSAI" title="原文 :  Release 4.2.0 "><a href="../../../../release-notes/release-4.2.0/index.html"><b></b>リリース4.2.0</a></span>
+    </li>
+     
+  
+ 
+
+            
           
             
             
@@ -1780,7 +1798,7 @@
 <h3 id="ssh-prerequisites"><span class="merged" id="index.3cdNMv" title="原文 : SSH prerequisites">SSHの前提条件</span></h3>
 <p><span class="merged" id="index.3yrhS7.spl1" title="原文 : WDT does not attempt to configure SSH between the machines.">WDTはマシン間でSSHを構成しようとしません。</span> <span class="merged" id="index.3yrhS7.spl2" title="原文 : As such, you must ensure that SSH is working between the machines in question and have made an initial SSH connection outside WDT as the user that WDT will use.">そのため、SSHが問題のマシン間で動作していること、およびWDTが使用するユーザーとしてWDT外部で初期SSH接続を行っていることを確認する必要があります。</span> <span class="merged" id="index.3yrhS7.spl3" title="原文 : This ensures that any necessary SSH configuration files (for example, the known_hosts file on the client and the authorized_keys file on the server) are properly initialized to allow the SSH connection between the machines to be established.">これにより、マシン間のSSH接続を確立できるように、必要なSSH構成ファイル(たとえば、クライアント上の<code>known_hosts</code>ファイルとサーバー上の<code>authorized_keys</code>ファイル)が適切に初期化されます。</span> </p>
 <h3 id="ssh-verification"><span class="merged" id="index.25x0dq" title="原文 : SSH verification">SSH検証</span></h3>
-<p><span class="merged" id="index.41PZCr.spl1" title="原文 : The Verify SSH Tool will allow the user to verify that SSH is working properly for use by WDT.">SSHの検証ツールを使用すると、ユーザーは、SSHがWDTで使用するために正しく機能していることを確認できます。</span> <span class="merged" id="index.41PZCr.spl2" title="原文 : For example, to verify that SSH is working for the current OS user with public/private key authentication using the standard RSA keys, simply run the command shown here.">たとえば、標準のRSAキーを使用した公開/秘密キー認証で現在のOSユーザーに対してSSHが機能していることを確認するには、ここに示すコマンドを実行します。</span> </p>
+<p><span class="merged" id="index.41PZCr.spl1" title="原文 : The Verify SSH Tool will allow the user to verify that SSH is working properly for use by WDT.">Verify SSH Toolを使用すると、ユーザーは、SSHがWDTで使用するために正しく機能していることを確認できます。</span> <span class="merged" id="index.41PZCr.spl2" title="原文 : For example, to verify that SSH is working for the current OS user with public/private key authentication using the standard RSA keys, simply run the command shown here.">たとえば、標準のRSAキーを使用した公開/秘密キー認証で現在のOSユーザーに対してSSHが機能していることを確認するには、ここに示すコマンドを実行します。</span> </p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">% verifySSH.sh -oracle_home $MW_HOME -ssh_host windows-host.mytenancy.oraclevcn.com
 ...
 Issue Log <span style="color:#66d9ef">for</span> verifySSH version 4.0.0 running WebLogic version 14.1.1.0.0.231012 in offline mode:
@@ -1788,7 +1806,7 @@ Issue Log <span style="color:#66d9ef">for</span> verifySSH version 4.0.0 running
 Total:   SEVERE :    <span style="color:#ae81ff">0</span>  WARNING :    <span style="color:#ae81ff">0</span>
 
 verifySSH.sh completed successfully <span style="color:#f92672">(</span>exit code <span style="color:#f92672">=</span> 0<span style="color:#f92672">)</span>
-</code></pre></div><p><span class="merged" id="index.4cEN3F" title="原文 : See the Verify SSH Tool documentation for more information.">詳細は、<a href="../../verify_ssh/index.html">「SSHツールの検証」</a>のドキュメントを参照してください。</span></p>
+</code></pre></div><p><span class="merged" id="index.4cEN3F" title="原文 : See the Verify SSH Tool documentation for more information.">詳細は、<a href="../../verify_ssh/index.html">Verify SSH Tool</a>のドキュメントを参照してください。</span></p>
 
 
 <footer class="footline">
@@ -3182,6 +3200,22 @@ verifySSH.sh completed successfully <span style="color:#f92672">(</span>exit cod
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -3204,19 +3238,19 @@ verifySSH.sh completed successfully <span style="color:#f92672">(</span>exit cod
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1720668022"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1720668022"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1720668022"></script>
-    <script src="../../../../js/jquery.sticky.js?1720668022"></script>
-    <script src="../../../../js/featherlight.min.js?1720668022"></script>
-    <script src="../../../../js/highlight.pack.js?1720668022"></script>
+    <script src="../../../../js/clipboard.min.js?1727580105"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1727580105"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1727580105"></script>
+    <script src="../../../../js/jquery.sticky.js?1727580105"></script>
+    <script src="../../../../js/featherlight.min.js?1727580105"></script>
+    <script src="../../../../js/highlight.pack.js?1727580105"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1720668022"></script>
-    <script src="../../../../js/learn.js?1720668022"></script>
-    <script src="../../../../js/hugo-learn.js?1720668022"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1727580105"></script>
+    <script src="../../../../js/learn.js?1727580105"></script>
+    <script src="../../../../js/hugo-learn.js?1727580105"></script>
     
         
-            <script src="../../../../mermaid/mermaid.js?1720668022"></script>
+            <script src="../../../../mermaid/mermaid.js?1727580105"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
