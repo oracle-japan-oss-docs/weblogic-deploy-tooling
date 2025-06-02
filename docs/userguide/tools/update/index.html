@@ -12,20 +12,20 @@
     <title>Update Domain Tool :: WebLogic Deploy Tooling</title>
 
     
-    <link href="../../../css/nucleus.css?1744255502" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1744255502" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1744255502" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1744255502" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1744255502" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1744255502" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1744255502" rel="stylesheet">
-    <link href="../../../css/theme.css?1744255502" rel="stylesheet">
-    <link href="../../../css/tabs.css?1744255502" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1744255502" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1748489592" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1748489592" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1748489592" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1748489592" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1748489592" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1748489592" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1748489592" rel="stylesheet">
+    <link href="../../../css/theme.css?1748489592" rel="stylesheet">
+    <link href="../../../css/tabs.css?1748489592" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1748489592" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1744255502"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1748489592"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../js/lunr.min.js?1744255502"></script>
-<script type="text/javascript" src="../../../js/auto-complete.js?1744255502"></script>
+<script type="text/javascript" src="../../../js/lunr.min.js?1748489592"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1748489592"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/oracle.github.io\/weblogic-deploy-tooling";
     
 </script>
-<script type="text/javascript" src="../../../js/search.js?1744255502"></script>
+<script type="text/javascript" src="../../../js/search.js?1748489592"></script>
 
     
   </div>
@@ -1188,6 +1188,42 @@
  
   
     
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.3.4/" title="リリース4.3.4">
+        <span class="merged" id="index.4ELW8Q" title="原文 :  Release 4.3.4 "><a href="../../../release-notes/release-4.3.4/index.html"><b></b>リリース4.3.4</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.3.3/" title="リリース4.3.3">
+        <span class="merged" id="index.IAIkY" title="原文 :  Release 4.3.3 "><a href="../../../release-notes/release-4.3.3/index.html"><b></b>リリース4.3.3</a></span>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
       <li class="dd-item " data-nav-id="/weblogic-deploy-tooling/release-notes/release-4.3.2/" title="リリース4.3.2">
         <span class="merged" id="index.ol56g" title="原文 :  Release 4.3.2 "><a href="../../../release-notes/release-4.3.2/index.html"><b></b>リリース4.3.2</a></span>
     </li>
@@ -2059,6 +2095,11 @@ Attributes changed : SessionPasswordEncrypted
 <td></td>
 </tr>
 <tr>
+<td><code>-output_dir</code></td>
+<td><span class="merged" id="index.1MieBR" title="原文 : If specified, files containing restart information are written to this directory, including restart.file, non_dynamic_changes.file, and results.json.">指定した場合、再起動情報を含むファイルは、<code>restart.file</code>、<code>non_dynamic_changes.file</code>、<code>results.json</code>などのこのディレクトリに書き込まれます。</span></td>
+<td></td>
+</tr>
+<tr>
 <td><code>-passphrase_env</code></td>
 <td><span class="merged" id="index.2G5YO9.spl1" title="原文 : An alternative to entering the encryption passphrase at a prompt.">プロンプトで暗号化パスフレーズを入力する代替手段。</span> <span class="merged" id="index.2G5YO9.spl2" title="原文 : The value is an environment variable name that WDT will use to retrieve the passphrase.">この値は、WDTがパスフレーズの取得に使用する環境変数名です。</span> </td>
 <td></td>
@@ -2074,26 +2115,6 @@ Attributes changed : SessionPasswordEncrypted
 <td></td>
 </tr>
 <tr>
-<td><code>-update_dir</code></td>
-<td><span class="merged" id="index.1MieBR" title="原文 : If specified, files containing restart information are written to this directory, including restart.file, non_dynamic_changes.file, and results.json.">指定した場合、再起動情報を含むファイルは、<code>restart.file</code>、<code>non_dynamic_changes.file</code>、<code>results.json</code>などのこのディレクトリに書き込まれます。</span></td>
-<td></td>
-</tr>
-<tr>
-<td><code>-use_encryption</code></td>
-<td><span class="merged" id="index.1hzGhX" title="原文 : (deprecated) Replaced by the -passphrase_prompt argument.">(非推奨) <code>-passphrase_prompt</code>引数に置き換えられます。</span></td>
-<td></td>
-</tr>
-<tr>
-<td><code>-variable_home</code></td>
-<td><span class="merged" id="index.2vS8Ty.spl1" title="原文 : The location of the property file containing the values for variables used in the model.">モデルで使用される変数の値を含むプロパティ・ファイルのロケーション。</span> <span class="merged" id="index.2vS8Ty.spl2" title="原文 : This can also be specified as a comma-separated list of property files, where each successive set of properties layers on top of the previous ones.">これは、プロパティ・ファイルのカンマ区切りリストとして指定することもできます。このリストでは、前述のプロパティ・レイヤーの先頭に続く各プロパティ・レイヤーのセットがあります。</span> </td>
-<td></td>
-</tr>
-<tr>
-<td><code>-wait_for_edit_lock</code></td>
-<td><span class="merged" id="index.1WsuQW" title="原文 : Skip checks for active edit sessions and pending changes before trying to acquire the WLST online edit lock to modify domain configuration.">ドメイン構成を変更するためにWLSTオンライン編集ロックを取得しようとする前に、アクティブな編集セッションおよび保留中の変更のチェックをスキップします。</span></td>
-<td></td>
-</tr>
-<tr>
 <td><code>-remote</code></td>
 <td><span class="merged" id="index.4XTtbd" title="原文 : Update the domain from a remote machine.">リモート・マシンからドメインを更新します。</span></td>
 <td></td>
@@ -2102,16 +2123,6 @@ Attributes changed : SessionPasswordEncrypted
 <td><code>-ssh_host</code></td>
 <td><span class="merged" id="index.2Sq08Y" title="原文 : The DNS name or IP address of the remote host.">リモート・ホストのDNS名またはIPアドレス。</span></td>
 <td></td>
-</tr>
-<tr>
-<td><code>-ssh_port</code></td>
-<td><span class="merged" id="index.2EjMEC" title="原文 : The TCP port on the remote host where the sshd daemon is listening for connection requests.">sshdデーモンが接続リクエストをリスニングしているリモート・ホスト上のTCPポート。</span></td>
-<td><code>22</code></td>
-</tr>
-<tr>
-<td><code>-ssh_user</code></td>
-<td><span class="merged" id="index.tfF3t" title="原文 : The user name on the remote host to use for authentication purposes.">認証目的で使用するリモート・ホスト上のユーザー名。</span></td>
-<td><span class="merged" id="index.E1zof" title="原文 : Same as the local user running the tool.">ツールを実行しているローカル・ユーザーと同じです。</span></td>
 </tr>
 <tr>
 <td><code>-ssh_pass_env</code></td>
@@ -2127,6 +2138,11 @@ Attributes changed : SessionPasswordEncrypted
 <td><code>-ssh_pass_prompt</code></td>
 <td><span class="merged" id="index.4UhfdT" title="原文 : A flag to force the tool to prompt the user to provide the remote user’s password through standard input when authenticating with user name and password.">ユーザー名とパスワードによる認証時に、標準入力を介してリモート・ユーザーのパスワードの入力をユーザーに要求するようにツールに要求するフラグ。</span></td>
 <td><span class="merged" id="index.1Vr1lc" title="原文 : Do not prompt or read from standard input.">プロンプトを表示したり、標準入力から読み取ったりしないでください。</span></td>
+</tr>
+<tr>
+<td><code>-ssh_port</code></td>
+<td><span class="merged" id="index.2EjMEC" title="原文 : The TCP port on the remote host where the sshd daemon is listening for connection requests.">sshdデーモンが接続リクエストをリスニングしているリモート・ホスト上のTCPポート。</span></td>
+<td><code>22</code></td>
 </tr>
 <tr>
 <td><code>-ssh_private_key</code></td>
@@ -2147,6 +2163,26 @@ Attributes changed : SessionPasswordEncrypted
 <td><code>-ssh_private_key_pass_prompt</code></td>
 <td><span class="merged" id="index.449fa" title="原文 : A flag to force the tool to prompt the user to provide their private key passphrase through standard input when authenticating with a public/private key pair.">公開キーと秘密キーのペアで認証するときに、標準入力を介して秘密キーのパスフレーズを指定するようユーザーに要求するようにツールに要求するフラグ。</span></td>
 <td><span class="merged" id="index.1Vr1lc.1" title="原文 : Do not prompt or read from standard input.">プロンプトを表示したり、標準入力から読み取ったりしないでください。</span></td>
+</tr>
+<tr>
+<td><code>-ssh_user</code></td>
+<td><span class="merged" id="index.tfF3t" title="原文 : The user name on the remote host to use for authentication purposes.">認証目的で使用するリモート・ホスト上のユーザー名。</span></td>
+<td><span class="merged" id="index.E1zof" title="原文 : Same as the local user running the tool.">ツールを実行しているローカル・ユーザーと同じです。</span></td>
+</tr>
+<tr>
+<td><code>-use_encryption</code></td>
+<td><span class="merged" id="index.1hzGhX" title="原文 : (deprecated) Replaced by the -passphrase_prompt argument.">(非推奨) <code>-passphrase_prompt</code>引数に置き換えられます。</span></td>
+<td></td>
+</tr>
+<tr>
+<td><code>-variable_home</code></td>
+<td><span class="merged" id="index.2vS8Ty.spl1" title="原文 : The location of the property file containing the values for variables used in the model.">モデルで使用される変数の値を含むプロパティ・ファイルのロケーション。</span> <span class="merged" id="index.2vS8Ty.spl2" title="原文 : This can also be specified as a comma-separated list of property files, where each successive set of properties layers on top of the previous ones.">これは、プロパティ・ファイルのカンマ区切りリストとして指定することもできます。このリストでは、前述のプロパティ・レイヤーの先頭に続く各プロパティ・レイヤーのセットがあります。</span> </td>
+<td></td>
+</tr>
+<tr>
+<td><code>-wait_for_edit_lock</code></td>
+<td><span class="merged" id="index.1WsuQW" title="原文 : Skip checks for active edit sessions and pending changes before trying to acquire the WLST online edit lock to modify domain configuration.">ドメイン構成を変更するためにWLSTオンライン編集ロックを取得しようとする前に、アクティブな編集セッションおよび保留中の変更のチェックをスキップします。</span></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3622,6 +3658,38 @@ Attributes changed : SessionPasswordEncrypted
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -3644,19 +3712,19 @@ Attributes changed : SessionPasswordEncrypted
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1744255502"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1744255502"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1744255502"></script>
-    <script src="../../../js/jquery.sticky.js?1744255502"></script>
-    <script src="../../../js/featherlight.min.js?1744255502"></script>
-    <script src="../../../js/highlight.pack.js?1744255502"></script>
+    <script src="../../../js/clipboard.min.js?1748489592"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1748489592"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1748489592"></script>
+    <script src="../../../js/jquery.sticky.js?1748489592"></script>
+    <script src="../../../js/featherlight.min.js?1748489592"></script>
+    <script src="../../../js/highlight.pack.js?1748489592"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1744255502"></script>
-    <script src="../../../js/learn.js?1744255502"></script>
-    <script src="../../../js/hugo-learn.js?1744255502"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1748489592"></script>
+    <script src="../../../js/learn.js?1748489592"></script>
+    <script src="../../../js/hugo-learn.js?1748489592"></script>
     
         
-            <script src="../../../mermaid/mermaid.js?1744255502"></script>
+            <script src="../../../mermaid/mermaid.js?1748489592"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
